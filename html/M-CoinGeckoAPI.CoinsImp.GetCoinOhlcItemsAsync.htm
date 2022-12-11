@@ -27,7 +27,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="TODO: Document this." />
+      <MSHelp:Attr Name="Abstract" Value="Get coin's OHLC (open, high, low, close) data (granularity auto). This is the same as , however the results are returned as concrete class items of .* 1 - 2 days: 30 minutes* 3 - 30 days: 4 hours* 31 days and beyond: 4 days" />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -122,6 +122,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" target="_self">GetCoinMarketChartRangeAsync Method </a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" target="_self">GetCoinMarketsAsync Method </a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" target="_self">GetCoinOhlcAsync Method </a>
 </div>
 <div class="TreeItem">
@@ -132,9 +135,6 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" target="_self">GetCoinTickersAsync Method </a>
-</div>
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm" target="_self">GetMarketsAsync Method </a>
 </div>
 </div>
 </div>
@@ -537,8 +537,8 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   TODO: Document this.
-   </div>
+   Get coin's OHLC (open, high, low, close) data (granularity auto).
+   <p>This is the same as <a href="M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm">GetCoinOhlcAsync(String, String, UInt32)</a>, however the results are returned as concrete class items of <a href="T-CoinGeckoAPI.Models.OhlcItem.htm">OhlcItem</a>.</p><p>* 1 - 2 days: 30 minutes</p><p>* 3 - 30 days: 4 hours</p><p>* 31 days and beyond: 4 days</p></div>
                 <p />
     <b>Namespace:</b> 
    <a href="N-CoinGeckoAPI.htm">CoinGeckoAPI</a><br />
@@ -551,7 +551,7 @@
 	<span class="parameter">id</span> <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a>, _
 	<span class="parameter">vs_currency</span> <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a>, _
 	<span class="parameter">days</span> <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.uint32" target="_blank">UInteger</a> _
-) <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1" target="_blank">Task</a>(<span class="keyword">Of</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> <a href="T-CoinGeckoAPI.Models.OhlcItem.htm">OhlcItem</a>))</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="id"><dt><span class="parameterItalic">id</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br />The identifier.</dd></dl><dl paramName="vs_currency"><dt><span class="parameterItalic">vs_currency</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br />The vs currency.</dd></dl><dl paramName="days"><dt><span class="parameterItalic">days</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.uint32" target="_blank">UInt32</a><br />The days.</dd></dl></div><h4 class="subHeading">Return Value</h4>A Task&lt;IEnumerable`1&gt; representing the asynchronous operation.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-CoinGeckoAPI.CoinsImp.htm">CoinsImp Class</a></div><div class="seeAlsoStyle"><a href="N-CoinGeckoAPI.htm">CoinGeckoAPI Namespace</a></div></div></div>
+) <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1" target="_blank">Task</a>(<span class="keyword">Of</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> <a href="T-CoinGeckoAPI.Models.OhlcItem.htm">OhlcItem</a>))</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="id"><dt><span class="parameterItalic">id</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br />The id of the coin cryptocurrency. See <a href="M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm">GetCoinsListAsync(Boolean)</a>.</dd></dl><dl paramName="vs_currency"><dt><span class="parameterItalic">vs_currency</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br />The target currency of market data (usd, eur, jpy, etc.). See <a href="M-CoinGeckoAPI.SimpleImp.GetSupportedVSCurrenciesAsync.htm">GetSupportedVSCurrenciesAsync<span class="languageSpecificText"><span class="cs">()</span><span class="cpp">()</span><span class="nu">()</span><span class="fs">()</span></span></a>.</dd></dl><dl paramName="days"><dt><span class="parameterItalic">days</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.uint32" target="_blank">UInt32</a><br />Data up to number of days ago (1/7/14/30/90/180/365/max).</dd></dl></div><h4 class="subHeading">Return Value</h4>A Task&lt;IEnumerable&lt;<a href="T-CoinGeckoAPI.Models.OhlcItem.htm">OhlcItem</a>&gt;&gt; representing the asynchronous operation.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-CoinGeckoAPI.CoinsImp.htm">CoinsImp Class</a></div><div class="seeAlsoStyle"><a href="N-CoinGeckoAPI.htm">CoinGeckoAPI Namespace</a></div></div></div>
             </div>
           </div>
         </div>

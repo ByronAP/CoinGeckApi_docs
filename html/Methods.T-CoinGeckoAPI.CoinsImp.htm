@@ -116,6 +116,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" target="_self">GetCoinMarketChartRangeAsync Method </a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" target="_self">GetCoinMarketsAsync Method </a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" target="_self">GetCoinOhlcAsync Method </a>
 </div>
 <div class="TreeItem">
@@ -126,9 +129,6 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" target="_self">GetCoinTickersAsync Method </a>
-</div>
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm" target="_self">GetMarketsAsync Method </a>
 </div>
 </div>
 </div>
@@ -558,8 +558,13 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+                          <p>Get current data (name, price, market, ... including exchange tickers) for a coin.</p>
+                          <p>IMPORTANT:</p>
+                          <p>Ticker object is limited to 100 items, to get more tickers, use <a href="M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm">GetCoinTickersAsync(String, IEnumerable<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span>String<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>, Boolean, UInt32, CoinTickersOrderBy, Boolean)</a>.
+   Ticker is_stale is true when ticker has not been updated/unchanged from the exchange for a while.
+   Ticker is_anomaly is true if ticker's price is outliered by our system.
+   You are responsible for managing how you want to display these information(e.g.footnote, different background, change opacity, hide).</p>
+                        </div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -571,7 +576,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
+   Get historical data (name, price, market, stats) at a given date for a coin.
    </div>
                       </td>
                     </tr>
@@ -584,8 +589,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get historical market data include price, market cap, and 24h volume (granularity auto).
+   <p>* Data granularity is automatic (cannot be adjusted)</p><p>* 1 day from current time = 5 minute interval data</p><p>* 1 - 90 days from current time = hourly data</p><p>* above 90 days from current time = daily data(00:00 UTC)</p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -597,7 +602,20 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
+   Get historical market data include price, market cap, and 24h volume within a range of timestamp (granularity auto).
+   <p>* Data granularity is automatic (cannot be adjusted)</p><p>* 1 day from current time = 5 minute interval data</p><p>* 1 - 90 days from current time = hourly data</p><p>* above 90 days from current time = daily data(00:00 UTC)</p></div>
+                      </td>
+                    </tr>
+                    <tr data="public;declared;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                      </td>
+                      <td>
+                        <a href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm">GetCoinMarketsAsync</a>
+                      </td>
+                      <td>
+                        <div class="summary">
+   Use this to obtain all the coins market data (price, market cap, volume).
    </div>
                       </td>
                     </tr>
@@ -610,8 +628,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get coin's OHLC (open, high, low, close) data (granularity auto).
+   <p>* 1 - 2 days: 30 minutes</p><p>* 3 - 30 days: 4 hours</p><p>* 31 days and beyond: 4 days</p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -623,8 +641,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get coin's OHLC (open, high, low, close) data (granularity auto).
+   <p>This is the same as <a href="M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm">GetCoinOhlcAsync(String, String, UInt32)</a>, however the results are returned as concrete class items of <a href="T-CoinGeckoAPI.Models.OhlcItem.htm">OhlcItem</a>.</p><p>* 1 - 2 days: 30 minutes</p><p>* 3 - 30 days: 4 hours</p><p>* 31 days and beyond: 4 days</p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -636,7 +654,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   Get coins list as an asynchronous operation.
+   Use this to obtain all the coins' id in order to make API calls.
    </div>
                       </td>
                     </tr>
@@ -649,21 +667,11 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
-                      </td>
-                    </tr>
-                    <tr data="public;declared;notNetfw;">
-                      <td>
-                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                      </td>
-                      <td>
-                        <a href="M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm">GetMarketsAsync</a>
-                      </td>
-                      <td>
-                        <div class="summary">
-   TODO: Document this.
-   </div>
+   Get coin tickers.
+   <p>IMPORTANT:</p><p>Ticker object is limited to 100 items per page.
+   Ticker is_stale is true when ticker has not been updated/unchanged from the exchange for a while.
+   Ticker is_anomaly is true if ticker's price is outliered by our system.
+   You are responsible for managing how you want to display these information(e.g.footnote, different background, change opacity, hide).</p></div>
                       </td>
                     </tr>
                   </table>

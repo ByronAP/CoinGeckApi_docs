@@ -654,11 +654,11 @@
   <HelpKINode Title="CoinsImp.GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinHistoryAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcItemsAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm" />
   <HelpKINode Title="CoinsImp.GetCoinTickersAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm" />
   <HelpKINode Title="CoinsListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinsListItem.htm" />
   <HelpKINode Title="CoinsListItem class" Url="html/T-CoinGeckoAPI.Models.CoinsListItem.htm" />
   <HelpKINode Title="CoinsListItem class">
@@ -1117,6 +1117,7 @@
   <HelpKINode Title="GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinHistoryAsync.htm" />
   <HelpKINode Title="GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartAsync.htm" />
   <HelpKINode Title="GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
+  <HelpKINode Title="GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" />
   <HelpKINode Title="GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" />
   <HelpKINode Title="GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcItemsAsync.htm" />
   <HelpKINode Title="GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm" />
@@ -1138,7 +1139,6 @@
   <HelpKINode Title="GetIndexAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexAsync.htm" />
   <HelpKINode Title="GetIndexesAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesAsync.htm" />
   <HelpKINode Title="GetIndexesListAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesListAsync.htm" />
-  <HelpKINode Title="GetMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm" />
   <HelpKINode Title="GetNftAsync method" Url="html/Overload-CoinGeckoAPI.NftsImp.GetNftAsync.htm" />
   <HelpKINode Title="GetNftsListAsync method" Url="html/M-CoinGeckoAPI.NftsImp.GetNftsListAsync.htm" />
   <HelpKINode Title="GetPriceAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetPriceAsync.htm" />

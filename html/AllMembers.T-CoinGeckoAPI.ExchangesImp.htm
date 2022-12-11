@@ -530,8 +530,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get exchange volume in BTC and top 100 tickers only.
+   <p>IMPORTANT:</p><p>* Ticker object is limited to 100 items, to get more tickers, use <a href="M-CoinGeckoAPI.ExchangesImp.GetExchangeTickersAsync.htm">GetExchangeTickersAsync(String, IEnumerable<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span>String<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>, Boolean, UInt32, Boolean, CoinTickersOrderBy)</a></p><p>* Ticker <span class="code">is_stale</span> is true when ticker that has not been updated/unchanged from the exchange for a while</p><p>* Ticker <span class="code">is_anomaly</span> is true if ticker's price is outliered by our system</p><p>* You are responsible for managing how you want to display these information (e.g. footnote, different background, change opacity, hide)</p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -543,7 +543,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
+   List all exchanges (active with trading volumes).
    </div>
                       </td>
                     </tr>
@@ -556,7 +556,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
+   Use this to obtain all the markets' id in order to make API calls.
    </div>
                       </td>
                     </tr>
@@ -569,8 +569,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get exchange tickers (paginated, 100 tickers per page).
+   <p>* Ticker object is limited to 100 items per page</p><p>* Ticker <span class="code">is_stale</span> is true when ticker that has not been updated/unchanged from the exchange for a while</p><p>* Ticker <span class="code">is_anomaly</span> is true if ticker's price is outliered by our system</p><p>* You are responsible for managing how you want to display these information (e.g. footnote, different background, change opacity, hide)</p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -582,8 +582,11 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get volume_chart data for a given exchange.
+   <p>
+   The results of this are not very user friendly (but good for charting).
+   For a more user friendly data format see <a href="M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm">GetExchangeVolumeChartFriendlyAsync(String, UInt32)</a>.
+   </p></div>
                       </td>
                     </tr>
                     <tr data="public;declared;notNetfw;">
@@ -595,8 +598,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   TODO: Document this.
-   </div>
+   Get volume_chart data for a given exchange.
+   <p>This is the same as <a href="M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartAsync.htm">GetExchangeVolumeChartAsync(String, UInt32)</a>, however the response is formatted in <a href="T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm">ExchangeVolumeChartItem</a> items.</p></div>
                       </td>
                     </tr>
                   </table>

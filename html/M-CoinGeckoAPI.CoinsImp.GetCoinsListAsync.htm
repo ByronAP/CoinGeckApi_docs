@@ -27,7 +27,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Get coins list as an asynchronous operation." />
+      <MSHelp:Attr Name="Abstract" Value="Use this to obtain all the coins' id in order to make API calls." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -122,6 +122,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" target="_self">GetCoinMarketChartRangeAsync Method </a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" target="_self">GetCoinMarketsAsync Method </a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" target="_self">GetCoinOhlcAsync Method </a>
 </div>
 <div class="TreeItem">
@@ -132,9 +135,6 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" target="_self">GetCoinTickersAsync Method </a>
-</div>
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-CoinGeckoAPI.CoinsImp.GetMarketsAsync.htm" target="_self">GetMarketsAsync Method </a>
 </div>
 </div>
 </div>
@@ -537,7 +537,7 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Get coins list as an asynchronous operation.
+   Use this to obtain all the coins' id in order to make API calls.
    </div>
                 <p />
     <b>Namespace:</b> 
@@ -547,7 +547,7 @@
 	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.boolean" target="_blank">bool</a> <span class="parameter">include_platform</span>
 )</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">GetCoinsListAsync</span> ( _
 	<span class="parameter">include_platform</span> <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.boolean" target="_blank">Boolean</a> _
-) <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1" target="_blank">Task</a>(<span class="keyword">Of</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> <a href="T-CoinGeckoAPI.Models.CoinsListItem.htm">CoinsListItem</a>))</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="include_platform"><dt><span class="parameterItalic">include_platform</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.boolean" target="_blank">Boolean</a><br />if set to <span class="code">true</span> [include platform].</dd></dl></div><h4 class="subHeading">Return Value</h4>A Task&lt;IEnumerable`1&gt; representing the asynchronous operation.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-CoinGeckoAPI.CoinsImp.htm">CoinsImp Class</a></div><div class="seeAlsoStyle"><a href="N-CoinGeckoAPI.htm">CoinGeckoAPI Namespace</a></div></div></div>
+) <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1" target="_blank">Task</a>(<span class="keyword">Of</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> <a href="T-CoinGeckoAPI.Models.CoinsListItem.htm">CoinsListItem</a>))</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="include_platform"><dt><span class="parameterItalic">include_platform</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.boolean" target="_blank">Boolean</a><br />Set to <span class="code">true</span> to include platform contract addresses (eg. 0x.... for Ethereum based tokens) in the response.</dd></dl></div><h4 class="subHeading">Return Value</h4>A Task&lt;IEnumerable&lt;<a href="T-CoinGeckoAPI.Models.CoinsListItem.htm">CoinsListItem</a>&gt;&gt; representing the asynchronous operation.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-CoinGeckoAPI.CoinsImp.htm">CoinsImp Class</a></div><div class="seeAlsoStyle"><a href="N-CoinGeckoAPI.htm">CoinGeckoAPI Namespace</a></div></div></div>
             </div>
           </div>
         </div>
