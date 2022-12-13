@@ -13,6 +13,7 @@
   <HelpKINode Title="ApiSymbol property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.ApiSymbol.htm" />
   <HelpKINode Title="API_BASE_URL field" Url="html/F-CoinGeckoAPI.Constants.API_BASE_URL.htm" />
   <HelpKINode Title="API_LOGO_128X128_PNG field" Url="html/F-CoinGeckoAPI.Constants.API_LOGO_128X128_PNG.htm" />
+  <HelpKINode Title="API_MAX_RPM field" Url="html/F-CoinGeckoAPI.Constants.API_MAX_RPM.htm" />
   <HelpKINode Title="API_NAME field" Url="html/F-CoinGeckoAPI.Constants.API_NAME.htm" />
   <HelpKINode Title="API_PRO_BASE_URL field" Url="html/F-CoinGeckoAPI.Constants.API_PRO_BASE_URL.htm" />
   <HelpKINode Title="API_RATE_LIMIT_MS field" Url="html/F-CoinGeckoAPI.Constants.API_RATE_LIMIT_MS.htm" />
@@ -73,6 +74,7 @@
   <HelpKINode Title="ChatUrl property" Url="html/P-CoinGeckoAPI.Models.CoinLinks.ChatUrl.htm" />
   <HelpKINode Title="CirculatingSupply property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.CirculatingSupply.htm" />
   <HelpKINode Title="CirculatingSupply property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.CirculatingSupply.htm" />
+  <HelpKINode Title="ClearCache method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.ClearCache.htm" />
   <HelpKINode Title="Close property" Url="html/P-CoinGeckoAPI.Models.OhlcItem.Close.htm" />
   <HelpKINode Title="ClosedIssues property" Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.ClosedIssues.htm" />
   <HelpKINode Title="CodeAdditionsDeletions4_Weeks property" Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.CodeAdditionsDeletions4_Weeks.htm" />
@@ -350,6 +352,7 @@
     <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.CoinGeckoClient.htm" />
   </HelpKINode>
   <HelpKINode Title="CoinGeckoClient.CGRestClient property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.CGRestClient.htm" />
+  <HelpKINode Title="CoinGeckoClient.ClearCache method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.ClearCache.htm" />
   <HelpKINode Title="CoinGeckoClient.CoinGeckoClient constructor" Url="html/Overload-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
   <HelpKINode Title="CoinGeckoClient.Coins property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Coins.htm" />
   <HelpKINode Title="CoinGeckoClient.Companies property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Companies.htm" />
@@ -359,6 +362,8 @@
   <HelpKINode Title="CoinGeckoClient.GetExchangeRatesAsync method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.GetExchangeRatesAsync.htm" />
   <HelpKINode Title="CoinGeckoClient.Global property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Global.htm" />
   <HelpKINode Title="CoinGeckoClient.Indexes property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Indexes.htm" />
+  <HelpKINode Title="CoinGeckoClient.IsCacheEnabled property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsCacheEnabled.htm" />
+  <HelpKINode Title="CoinGeckoClient.IsRateLimitingEnabled property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsRateLimitingEnabled.htm" />
   <HelpKINode Title="CoinGeckoClient.Nfts property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Nfts.htm" />
   <HelpKINode Title="CoinGeckoClient.PingAsync method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.PingAsync.htm" />
   <HelpKINode Title="CoinGeckoClient.Search property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Search.htm" />
@@ -801,6 +806,7 @@
   </HelpKINode>
   <HelpKINode Title="Constants.API_BASE_URL field" Url="html/F-CoinGeckoAPI.Constants.API_BASE_URL.htm" />
   <HelpKINode Title="Constants.API_LOGO_128X128_PNG field" Url="html/F-CoinGeckoAPI.Constants.API_LOGO_128X128_PNG.htm" />
+  <HelpKINode Title="Constants.API_MAX_RPM field" Url="html/F-CoinGeckoAPI.Constants.API_MAX_RPM.htm" />
   <HelpKINode Title="Constants.API_NAME field" Url="html/F-CoinGeckoAPI.Constants.API_NAME.htm" />
   <HelpKINode Title="Constants.API_PRO_BASE_URL field" Url="html/F-CoinGeckoAPI.Constants.API_PRO_BASE_URL.htm" />
   <HelpKINode Title="Constants.API_RATE_LIMIT_MS field" Url="html/F-CoinGeckoAPI.Constants.API_RATE_LIMIT_MS.htm" />
@@ -1082,7 +1088,7 @@
     <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm" />
   </HelpKINode>
   <HelpKINode Title="ExchangeVolumeChartItem.Timestamp property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Timestamp.htm" />
-  <HelpKINode Title="ExchangeVolumeChartItem.volume property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.volume.htm" />
+  <HelpKINode Title="ExchangeVolumeChartItem.Volume property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Volume.htm" />
   <HelpKINode Title="ExpiredAt property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.ExpiredAt.htm" />
   <HelpKINode Title="ExpiredAt property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.ExpiredAt.htm" />
   <HelpKINode Title="Facebook property" Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Facebook.htm" />
@@ -1307,7 +1313,9 @@
   <HelpKINode Title="IndexListItem.Id property" Url="html/P-CoinGeckoAPI.Models.IndexListItem.Id.htm" />
   <HelpKINode Title="IndexListItem.Name property" Url="html/P-CoinGeckoAPI.Models.IndexListItem.Name.htm" />
   <HelpKINode Title="IsAnomaly property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.IsAnomaly.htm" />
+  <HelpKINode Title="IsCacheEnabled property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsCacheEnabled.htm" />
   <HelpKINode Title="IsMultiAssetComposite property" Url="html/P-CoinGeckoAPI.Models.IndexItem.IsMultiAssetComposite.htm" />
+  <HelpKINode Title="IsRateLimitingEnabled property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsRateLimitingEnabled.htm" />
   <HelpKINode Title="IsStale property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.IsStale.htm" />
   <HelpKINode Title="KycRequired property" Url="html/P-CoinGeckoAPI.Models.CoinIcoData.KycRequired.htm" />
   <HelpKINode Title="Large property" Url="html/P-CoinGeckoAPI.Models.CoinImage.Large.htm" />
@@ -1844,7 +1852,7 @@
   <HelpKINode Title="Usd property" Url="html/P-CoinGeckoAPI.Models.NftPriceItem.Usd.htm" />
   <HelpKINode Title="Value property" Url="html/P-CoinGeckoAPI.Models.ExchangeRate.Value.htm" />
   <HelpKINode Title="Volume property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.Volume.htm" />
-  <HelpKINode Title="volume property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.volume.htm" />
+  <HelpKINode Title="Volume property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Volume.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Volume24H.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.Volume24H.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Volume24H.htm" />
