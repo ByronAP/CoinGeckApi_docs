@@ -1,23 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="f4de93f3-e34a-4762-8abf-b6672335840c" Title="CoinGeckoAPI Namespace" Url="html/N-CoinGeckoAPI.htm">
-    <HelpTOCNode Id="dd5e9e96-6840-4871-8b60-74e29dc0b6c9" Title="CoinGeckoClient Class" Url="html/T-CoinGeckoAPI.CoinGeckoClient.htm">
+  <HelpTOCNode Id="4ab4e6b1-beaf-4d35-9942-9ba41f7d91a9" Title="CoinGeckoAPI Namespace" Url="html/N-CoinGeckoAPI.htm">
+    <HelpTOCNode Id="b1bc3a8b-3676-4eb3-965e-018a4a86e33e" Title="CoinGeckoClient Class" Url="html/T-CoinGeckoAPI.CoinGeckoClient.htm">
       <HelpTOCNode Title="CoinGeckoClient Members" Url="html/AllMembers.T-CoinGeckoAPI.CoinGeckoClient.htm" />
-      <HelpTOCNode Id="926cb443-3682-40e1-b34f-a3aadb4ebf27" Title="CoinGeckoClient Constructor " Url="html/Overload-CoinGeckoAPI.CoinGeckoClient.-ctor.htm">
-        <HelpTOCNode Title="CoinGeckoClient Constructor " Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
-        <HelpTOCNode Title="CoinGeckoClient Constructor (Boolean)" Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor_1.htm" />
-        <HelpTOCNode Title="CoinGeckoClient Constructor (ILogger(CoinGeckoClient))" Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor_2.htm" />
-        <HelpTOCNode Title="CoinGeckoClient Constructor (ILogger(CoinGeckoClient), Boolean)" Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor_3.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="7372b2c4-7006-4332-a706-8518e270d651" Title="CoinGeckoClient Methods" Url="html/Methods.T-CoinGeckoAPI.CoinGeckoClient.htm">
+      <HelpTOCNode Title="CoinGeckoClient Constructor " Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
+      <HelpTOCNode Id="015e534e-bbda-4fc1-9056-2da6b84c5469" Title="CoinGeckoClient Methods" Url="html/Methods.T-CoinGeckoAPI.CoinGeckoClient.htm">
         <HelpTOCNode Title="ClearCache Method " Url="html/M-CoinGeckoAPI.CoinGeckoClient.ClearCache.htm" />
         <HelpTOCNode Title="Dispose Method " Url="html/M-CoinGeckoAPI.CoinGeckoClient.Dispose.htm" />
         <HelpTOCNode Title="GetAssetPlatformsAsync Method " Url="html/M-CoinGeckoAPI.CoinGeckoClient.GetAssetPlatformsAsync.htm" />
         <HelpTOCNode Title="GetExchangeRatesAsync Method " Url="html/M-CoinGeckoAPI.CoinGeckoClient.GetExchangeRatesAsync.htm" />
         <HelpTOCNode Title="PingAsync Method " Url="html/M-CoinGeckoAPI.CoinGeckoClient.PingAsync.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="707fcbf1-57bc-467e-9c7f-82257012f5d0" Title="CoinGeckoClient Properties" Url="html/Properties.T-CoinGeckoAPI.CoinGeckoClient.htm">
+      <HelpTOCNode Id="d0d32ce0-8e00-4404-a3a6-a2e93e469c50" Title="CoinGeckoClient Properties" Url="html/Properties.T-CoinGeckoAPI.CoinGeckoClient.htm">
         <HelpTOCNode Title="CGRestClient Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.CGRestClient.htm" />
         <HelpTOCNode Title="Coins Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Coins.htm" />
         <HelpTOCNode Title="Companies Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Companies.htm" />
@@ -28,52 +23,14 @@
         <HelpTOCNode Title="IsCacheEnabled Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsCacheEnabled.htm" />
         <HelpTOCNode Title="IsRateLimitingEnabled Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsRateLimitingEnabled.htm" />
         <HelpTOCNode Title="Nfts Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Nfts.htm" />
+        <HelpTOCNode Title="Pro Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Pro.htm" />
         <HelpTOCNode Title="Search Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Search.htm" />
         <HelpTOCNode Title="Simple Property " Url="html/P-CoinGeckoAPI.CoinGeckoClient.Simple.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="372b850a-1c80-4804-b7c8-795b19584df8" Title="CoinsCategoriesImp Class" Url="html/T-CoinGeckoAPI.CoinsCategoriesImp.htm">
-      <HelpTOCNode Title="CoinsCategoriesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-      <HelpTOCNode Id="14b899ce-6a85-4785-ac1b-6c1303928d90" Title="CoinsCategoriesImp Methods" Url="html/Methods.T-CoinGeckoAPI.CoinsCategoriesImp.htm">
-        <HelpTOCNode Title="GetCoinCategoriesAsync Method " Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
-        <HelpTOCNode Title="GetCoinCategoriesListAsync Method " Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="75be5c59-9e21-49aa-a3f9-cd289f7954c9" Title="CoinsContractImp Class" Url="html/T-CoinGeckoAPI.CoinsContractImp.htm">
-      <HelpTOCNode Title="CoinsContractImp Members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsContractImp.htm" />
-      <HelpTOCNode Id="ec0064e1-88fa-4736-9923-fa1b62473853" Title="CoinsContractImp Methods" Url="html/Methods.T-CoinGeckoAPI.CoinsContractImp.htm">
-        <HelpTOCNode Title="GetCoinContractAsync Method " Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractAsync.htm" />
-        <HelpTOCNode Title="GetCoinContractMarketChartAsync Method " Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
-        <HelpTOCNode Title="GetCoinContractMarketChartRangeAsync Method " Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="a19848d7-d5ee-4910-8598-96d7d23db57d" Title="CoinsImp Class" Url="html/T-CoinGeckoAPI.CoinsImp.htm">
-      <HelpTOCNode Title="CoinsImp Members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsImp.htm" />
-      <HelpTOCNode Id="1818ba78-693e-48d5-a434-40ef220717c7" Title="CoinsImp Methods" Url="html/Methods.T-CoinGeckoAPI.CoinsImp.htm">
-        <HelpTOCNode Title="GetCoinAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinAsync.htm" />
-        <HelpTOCNode Title="GetCoinHistoryAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinHistoryAsync.htm" />
-        <HelpTOCNode Title="GetCoinMarketChartAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartAsync.htm" />
-        <HelpTOCNode Title="GetCoinMarketChartRangeAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
-        <HelpTOCNode Title="GetCoinMarketsAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" />
-        <HelpTOCNode Title="GetCoinOhlcAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" />
-        <HelpTOCNode Title="GetCoinOhlcItemsAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcItemsAsync.htm" />
-        <HelpTOCNode Title="GetCoinsListAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm" />
-        <HelpTOCNode Title="GetCoinTickersAsync Method " Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="2bf94fe3-3c51-4a3e-b350-f09dfdc8b45f" Title="CoinsImp Properties" Url="html/Properties.T-CoinGeckoAPI.CoinsImp.htm">
-        <HelpTOCNode Title="Categories Property " Url="html/P-CoinGeckoAPI.CoinsImp.Categories.htm" />
-        <HelpTOCNode Title="Contract Property " Url="html/P-CoinGeckoAPI.CoinsImp.Contract.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="50b2eaac-7885-4571-9f9f-dfb5915d6ee9" Title="CompaniesImp Class" Url="html/T-CoinGeckoAPI.CompaniesImp.htm">
-      <HelpTOCNode Title="CompaniesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.CompaniesImp.htm" />
-      <HelpTOCNode Id="bd3fbdc6-d460-43f5-b509-11a6dbb29c41" Title="CompaniesImp Methods" Url="html/Methods.T-CoinGeckoAPI.CompaniesImp.htm">
-        <HelpTOCNode Title="GetCompaniesPublicTreasuryAsync Method " Url="html/M-CoinGeckoAPI.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="0d5df024-dfa3-472b-951c-fbddb8c82c39" Title="Constants Class" Url="html/T-CoinGeckoAPI.Constants.htm">
+    <HelpTOCNode Id="24678f7a-c302-4a25-9cad-876abb525172" Title="Constants Class" Url="html/T-CoinGeckoAPI.Constants.htm">
       <HelpTOCNode Title="Constants Members" Url="html/AllMembers.T-CoinGeckoAPI.Constants.htm" />
-      <HelpTOCNode Id="dee50d2a-a9d3-4a7e-b0f3-b5822bf18dce" Title="Constants Fields" Url="html/Fields.T-CoinGeckoAPI.Constants.htm">
+      <HelpTOCNode Id="23e32594-30de-4cdc-a61a-eb3d0e838d36" Title="Constants Fields" Url="html/Fields.T-CoinGeckoAPI.Constants.htm">
         <HelpTOCNode Title="API_BASE_URL Field" Url="html/F-CoinGeckoAPI.Constants.API_BASE_URL.htm" />
         <HelpTOCNode Title="API_LOGO_128X128_PNG Field" Url="html/F-CoinGeckoAPI.Constants.API_LOGO_128X128_PNG.htm" />
         <HelpTOCNode Title="API_MAX_RPM Field" Url="html/F-CoinGeckoAPI.Constants.API_MAX_RPM.htm" />
@@ -84,86 +41,139 @@
         <HelpTOCNode Title="API_VERSION Field" Url="html/F-CoinGeckoAPI.Constants.API_VERSION.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6da34d0d-8a19-4bc1-b4ee-386bef435bb6" Title="DerivativesImp Class" Url="html/T-CoinGeckoAPI.DerivativesImp.htm">
-      <HelpTOCNode Title="DerivativesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.DerivativesImp.htm" />
-      <HelpTOCNode Id="8543be3b-03fc-4d5d-9e21-f01247e4330c" Title="DerivativesImp Methods" Url="html/Methods.T-CoinGeckoAPI.DerivativesImp.htm">
-        <HelpTOCNode Title="GetDerivativesAsync Method " Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesAsync.htm" />
-        <HelpTOCNode Title="GetDerivativesExchangeAsync Method " Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangeAsync.htm" />
-        <HelpTOCNode Title="GetDerivativesExchangesAsync Method " Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesAsync.htm" />
-        <HelpTOCNode Title="GetDerivativesExchangesListAsync Method " Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="e5b1fd1f-bfef-4d48-889d-a84d2dffc158" Title="ExchangesImp Class" Url="html/T-CoinGeckoAPI.ExchangesImp.htm">
-      <HelpTOCNode Title="ExchangesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.ExchangesImp.htm" />
-      <HelpTOCNode Id="52d53de2-1309-4990-a319-3d756830317b" Title="ExchangesImp Methods" Url="html/Methods.T-CoinGeckoAPI.ExchangesImp.htm">
-        <HelpTOCNode Title="GetExchangeAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeAsync.htm" />
-        <HelpTOCNode Title="GetExchangesAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesAsync.htm" />
-        <HelpTOCNode Title="GetExchangesListAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesListAsync.htm" />
-        <HelpTOCNode Title="GetExchangeTickersAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeTickersAsync.htm" />
-        <HelpTOCNode Title="GetExchangeVolumeChartAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
-        <HelpTOCNode Title="GetExchangeVolumeChartFriendlyAsync Method " Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="8be6cb4b-0edb-4b73-bf1d-1671dd7a35f8" Title="GlobalImp Class" Url="html/T-CoinGeckoAPI.GlobalImp.htm">
-      <HelpTOCNode Title="GlobalImp Members" Url="html/AllMembers.T-CoinGeckoAPI.GlobalImp.htm" />
-      <HelpTOCNode Id="3ad940ee-7446-49df-b709-19a4ccb635f6" Title="GlobalImp Methods" Url="html/Methods.T-CoinGeckoAPI.GlobalImp.htm">
-        <HelpTOCNode Title="GetGlobalAsync Method " Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalAsync.htm" />
-        <HelpTOCNode Title="GetGlobalDefiAsync Method " Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalDefiAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="00c28c98-4942-4d49-a98c-f023a291e8df" Title="IndexesImp Class" Url="html/T-CoinGeckoAPI.IndexesImp.htm">
-      <HelpTOCNode Title="IndexesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.IndexesImp.htm" />
-      <HelpTOCNode Id="fe878432-3e20-4d18-90ce-3f25495f6635" Title="IndexesImp Methods" Url="html/Methods.T-CoinGeckoAPI.IndexesImp.htm">
-        <HelpTOCNode Title="GetIndexAsync Method " Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexAsync.htm" />
-        <HelpTOCNode Title="GetIndexesAsync Method " Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesAsync.htm" />
-        <HelpTOCNode Title="GetIndexesListAsync Method " Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesListAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="8c687a6f-5636-4d19-b681-7fa2b9a31b23" Title="NftsImp Class" Url="html/T-CoinGeckoAPI.NftsImp.htm">
-      <HelpTOCNode Title="NftsImp Members" Url="html/AllMembers.T-CoinGeckoAPI.NftsImp.htm" />
-      <HelpTOCNode Id="3a99c840-a587-4169-a2d4-3778ac1b5b20" Title="NftsImp Methods" Url="html/Methods.T-CoinGeckoAPI.NftsImp.htm">
-        <HelpTOCNode Id="fb0da2d5-e9e4-4924-8f95-f75e06aa4847" Title="GetNftAsync Method " Url="html/Overload-CoinGeckoAPI.NftsImp.GetNftAsync.htm">
-          <HelpTOCNode Title="GetNftAsync Method (String)" Url="html/M-CoinGeckoAPI.NftsImp.GetNftAsync.htm" />
-          <HelpTOCNode Title="GetNftAsync Method (String, String)" Url="html/M-CoinGeckoAPI.NftsImp.GetNftAsync_1.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="GetNftsListAsync Method " Url="html/M-CoinGeckoAPI.NftsImp.GetNftsListAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="5e90678d-66c4-45c0-881a-f5a5cdb62ee2" Title="SearchImp Class" Url="html/T-CoinGeckoAPI.SearchImp.htm">
-      <HelpTOCNode Title="SearchImp Members" Url="html/AllMembers.T-CoinGeckoAPI.SearchImp.htm" />
-      <HelpTOCNode Id="53cbf61f-9520-475e-b6d0-64cf9b78ecec" Title="SearchImp Methods" Url="html/Methods.T-CoinGeckoAPI.SearchImp.htm">
-        <HelpTOCNode Title="GetSearchAsync Method " Url="html/M-CoinGeckoAPI.SearchImp.GetSearchAsync.htm" />
-        <HelpTOCNode Title="GetSearchTrendingAsync Method " Url="html/M-CoinGeckoAPI.SearchImp.GetSearchTrendingAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="23cc3ffa-72f7-49f2-948a-bc6409fc216b" Title="SimpleImp Class" Url="html/T-CoinGeckoAPI.SimpleImp.htm">
-      <HelpTOCNode Title="SimpleImp Members" Url="html/AllMembers.T-CoinGeckoAPI.SimpleImp.htm" />
-      <HelpTOCNode Id="e0cde63f-5cce-45ab-8e01-e1b7e221e94d" Title="SimpleImp Methods" Url="html/Methods.T-CoinGeckoAPI.SimpleImp.htm">
-        <HelpTOCNode Title="GetPriceAsync Method " Url="html/M-CoinGeckoAPI.SimpleImp.GetPriceAsync.htm" />
-        <HelpTOCNode Title="GetSupportedVSCurrenciesAsync Method " Url="html/M-CoinGeckoAPI.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
-        <HelpTOCNode Title="GetTokenPriceAsync Method " Url="html/M-CoinGeckoAPI.SimpleImp.GetTokenPriceAsync.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="389f9335-9acf-41fb-9093-4b3a7c158369" Title="CoinGeckoAPI.Exceptions Namespace" Url="html/N-CoinGeckoAPI.Exceptions.htm">
-    <HelpTOCNode Id="3ae03170-b7a1-4e08-93ae-7d6825be01ca" Title="UnknownException Class" Url="html/T-CoinGeckoAPI.Exceptions.UnknownException.htm">
+  <HelpTOCNode Id="ce83fbe2-a0ae-429f-a9fd-b438d8e65849" Title="CoinGeckoAPI.Exceptions Namespace" Url="html/N-CoinGeckoAPI.Exceptions.htm">
+    <HelpTOCNode Id="d2f64c2d-53d6-4018-aeb7-5d54701eacbc" Title="UnknownException Class" Url="html/T-CoinGeckoAPI.Exceptions.UnknownException.htm">
       <HelpTOCNode Title="UnknownException Members" Url="html/AllMembers.T-CoinGeckoAPI.Exceptions.UnknownException.htm" />
       <HelpTOCNode Title="UnknownException Constructor " Url="html/M-CoinGeckoAPI.Exceptions.UnknownException.-ctor.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="0ed57d24-4f7b-4cdb-9d99-8fb2de862d45" Title="CoinGeckoAPI.Models Namespace" Url="html/N-CoinGeckoAPI.Models.htm">
-    <HelpTOCNode Id="ecce0e6f-0d5c-44cb-85c8-ad1d8419247e" Title="AssetPlatform Class" Url="html/T-CoinGeckoAPI.Models.AssetPlatform.htm">
+  <HelpTOCNode Id="132a80e8-97d7-489d-8847-8f1aeaded16a" Title="CoinGeckoAPI.Imps Namespace" Url="html/N-CoinGeckoAPI.Imps.htm">
+    <HelpTOCNode Id="6c30b29b-3dad-4802-a04d-649681bcd85a" Title="CoinsCategoriesImp Class" Url="html/T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm">
+      <HelpTOCNode Title="CoinsCategoriesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+      <HelpTOCNode Id="37d63f0f-1201-4604-a84a-6fd8a8abeff3" Title="CoinsCategoriesImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm">
+        <HelpTOCNode Title="GetCoinCategoriesAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
+        <HelpTOCNode Title="GetCoinCategoriesListAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2e44530-c78a-4188-9e25-9effe1d13d80" Title="CoinsContractImp Class" Url="html/T-CoinGeckoAPI.Imps.CoinsContractImp.htm">
+      <HelpTOCNode Title="CoinsContractImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+      <HelpTOCNode Id="5b086fa7-22e2-4373-b1de-214ca016d177" Title="CoinsContractImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsContractImp.htm">
+        <HelpTOCNode Title="GetCoinContractAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractAsync.htm" />
+        <HelpTOCNode Title="GetCoinContractMarketChartAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
+        <HelpTOCNode Title="GetCoinContractMarketChartRangeAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c03141c7-0fe9-4cce-abf6-5cae9c583f23" Title="CoinsImp Class" Url="html/T-CoinGeckoAPI.Imps.CoinsImp.htm">
+      <HelpTOCNode Title="CoinsImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+      <HelpTOCNode Id="f5268a3d-c42a-4acf-a85c-aab832691f5d" Title="CoinsImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsImp.htm">
+        <HelpTOCNode Title="GetCoinAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinAsync.htm" />
+        <HelpTOCNode Title="GetCoinHistoryAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinHistoryAsync.htm" />
+        <HelpTOCNode Title="GetCoinMarketChartAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartAsync.htm" />
+        <HelpTOCNode Title="GetCoinMarketChartRangeAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
+        <HelpTOCNode Title="GetCoinMarketsAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketsAsync.htm" />
+        <HelpTOCNode Title="GetCoinOhlcAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcAsync.htm" />
+        <HelpTOCNode Title="GetCoinOhlcItemsAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcItemsAsync.htm" />
+        <HelpTOCNode Title="GetCoinsListAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinsListAsync.htm" />
+        <HelpTOCNode Title="GetCoinTickersAsync Method " Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinTickersAsync.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c4d8fb2-00f1-4f6a-a995-81f641a3611c" Title="CoinsImp Properties" Url="html/Properties.T-CoinGeckoAPI.Imps.CoinsImp.htm">
+        <HelpTOCNode Title="Categories Property " Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Categories.htm" />
+        <HelpTOCNode Title="Contract Property " Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Contract.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="16018990-40c7-4c4d-b1a7-4cc4bbaf87dc" Title="CompaniesImp Class" Url="html/T-CoinGeckoAPI.Imps.CompaniesImp.htm">
+      <HelpTOCNode Title="CompaniesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+      <HelpTOCNode Id="32fd10e6-ded8-4a94-8180-8a475a2f83cb" Title="CompaniesImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CompaniesImp.htm">
+        <HelpTOCNode Title="GetCompaniesPublicTreasuryAsync Method " Url="html/M-CoinGeckoAPI.Imps.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fcef1beb-fbbc-4f57-8477-b310231c20c6" Title="DerivativesImp Class" Url="html/T-CoinGeckoAPI.Imps.DerivativesImp.htm">
+      <HelpTOCNode Title="DerivativesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+      <HelpTOCNode Id="094cb077-4240-4ddf-ac83-73a98130e771" Title="DerivativesImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.DerivativesImp.htm">
+        <HelpTOCNode Title="GetDerivativesAsync Method " Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesAsync.htm" />
+        <HelpTOCNode Title="GetDerivativesExchangeAsync Method " Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangeAsync.htm" />
+        <HelpTOCNode Title="GetDerivativesExchangesAsync Method " Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesAsync.htm" />
+        <HelpTOCNode Title="GetDerivativesExchangesListAsync Method " Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b763671f-362c-4ff1-9254-3b0f91c7b44b" Title="ExchangesImp Class" Url="html/T-CoinGeckoAPI.Imps.ExchangesImp.htm">
+      <HelpTOCNode Title="ExchangesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+      <HelpTOCNode Id="b8e24739-0186-4cb2-b170-26728a09be38" Title="ExchangesImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.ExchangesImp.htm">
+        <HelpTOCNode Title="GetExchangeAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeAsync.htm" />
+        <HelpTOCNode Title="GetExchangesAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesAsync.htm" />
+        <HelpTOCNode Title="GetExchangesListAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesListAsync.htm" />
+        <HelpTOCNode Title="GetExchangeTickersAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeTickersAsync.htm" />
+        <HelpTOCNode Title="GetExchangeVolumeChartAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
+        <HelpTOCNode Title="GetExchangeVolumeChartFriendlyAsync Method " Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e0c9771-ca34-43be-99b5-4d0e6dcce3fe" Title="GlobalImp Class" Url="html/T-CoinGeckoAPI.Imps.GlobalImp.htm">
+      <HelpTOCNode Title="GlobalImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+      <HelpTOCNode Id="0c6b6c49-c7d6-459f-881a-0984214da9bc" Title="GlobalImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.GlobalImp.htm">
+        <HelpTOCNode Title="GetGlobalAsync Method " Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalAsync.htm" />
+        <HelpTOCNode Title="GetGlobalDefiAsync Method " Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalDefiAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ee01260-6616-49a6-b6a0-dfc3af604b55" Title="IndexesImp Class" Url="html/T-CoinGeckoAPI.Imps.IndexesImp.htm">
+      <HelpTOCNode Title="IndexesImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+      <HelpTOCNode Id="69a56773-9751-4f7b-a4fc-11132901ce01" Title="IndexesImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.IndexesImp.htm">
+        <HelpTOCNode Title="GetIndexAsync Method " Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexAsync.htm" />
+        <HelpTOCNode Title="GetIndexesAsync Method " Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesAsync.htm" />
+        <HelpTOCNode Title="GetIndexesListAsync Method " Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesListAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fcea2366-2153-4894-be6a-7e4b7c2f0d40" Title="NftsImp Class" Url="html/T-CoinGeckoAPI.Imps.NftsImp.htm">
+      <HelpTOCNode Title="NftsImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.NftsImp.htm" />
+      <HelpTOCNode Id="3c468c90-86e4-4207-a5c7-0c982ebfc81c" Title="NftsImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.NftsImp.htm">
+        <HelpTOCNode Id="663188ee-bb4d-47a9-8e37-f4edc24ba8c0" Title="GetNftAsync Method " Url="html/Overload-CoinGeckoAPI.Imps.NftsImp.GetNftAsync.htm">
+          <HelpTOCNode Title="GetNftAsync Method (String)" Url="html/M-CoinGeckoAPI.Imps.NftsImp.GetNftAsync.htm" />
+          <HelpTOCNode Title="GetNftAsync Method (String, String)" Url="html/M-CoinGeckoAPI.Imps.NftsImp.GetNftAsync_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetNftsListAsync Method " Url="html/M-CoinGeckoAPI.Imps.NftsImp.GetNftsListAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6565d4d0-60f8-4af3-af25-73496f2f3e8a" Title="ProImp Class" Url="html/T-CoinGeckoAPI.Imps.ProImp.htm">
+      <HelpTOCNode Title="ProImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ProImp.htm" />
+      <HelpTOCNode Id="4135a223-9e9c-498e-8547-d1b6c04edace" Title="ProImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.ProImp.htm">
+        <HelpTOCNode Title="GetGlobalMarketCapChartAsync Method " Url="html/M-CoinGeckoAPI.Imps.ProImp.GetGlobalMarketCapChartAsync.htm" />
+        <HelpTOCNode Id="a1088901-7bcc-485f-9ddc-64a0994365da" Title="GetNftsMarketChartAsync Method " Url="html/Overload-CoinGeckoAPI.Imps.ProImp.GetNftsMarketChartAsync.htm">
+          <HelpTOCNode Title="GetNftsMarketChartAsync Method (String, UInt32)" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsMarketChartAsync.htm" />
+          <HelpTOCNode Title="GetNftsMarketChartAsync Method (String, String, UInt32)" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsMarketChartAsync_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetNftsMarketsAsync Method " Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsMarketsAsync.htm" />
+        <HelpTOCNode Title="GetNftsTickersAsync Method " Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsTickersAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f83ffc6f-9b6b-411d-b67d-5533994e816a" Title="SearchImp Class" Url="html/T-CoinGeckoAPI.Imps.SearchImp.htm">
+      <HelpTOCNode Title="SearchImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SearchImp.htm" />
+      <HelpTOCNode Id="c8bf5376-91ae-41a6-8797-0a1feddf6e93" Title="SearchImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.SearchImp.htm">
+        <HelpTOCNode Title="GetSearchAsync Method " Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchAsync.htm" />
+        <HelpTOCNode Title="GetSearchTrendingAsync Method " Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchTrendingAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e91fc04a-2a6d-4936-a818-a1c5708b8566" Title="SimpleImp Class" Url="html/T-CoinGeckoAPI.Imps.SimpleImp.htm">
+      <HelpTOCNode Title="SimpleImp Members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SimpleImp.htm" />
+      <HelpTOCNode Id="4c01befb-987c-4efc-86c6-8800852db7fb" Title="SimpleImp Methods" Url="html/Methods.T-CoinGeckoAPI.Imps.SimpleImp.htm">
+        <HelpTOCNode Title="GetPriceAsync Method " Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetPriceAsync.htm" />
+        <HelpTOCNode Title="GetSupportedVSCurrenciesAsync Method " Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
+        <HelpTOCNode Title="GetTokenPriceAsync Method " Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetTokenPriceAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0f4b0182-7922-49bd-983f-3a600141ec87" Title="CoinGeckoAPI.Models Namespace" Url="html/N-CoinGeckoAPI.Models.htm">
+    <HelpTOCNode Id="48364fcf-ac7a-483c-91c7-c49ef3e1c3c9" Title="AssetPlatform Class" Url="html/T-CoinGeckoAPI.Models.AssetPlatform.htm">
       <HelpTOCNode Title="AssetPlatform Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.AssetPlatform.htm" />
-      <HelpTOCNode Id="6616c5bd-bff1-4b3f-807f-ccbebb7d13e8" Title="AssetPlatform Properties" Url="html/Properties.T-CoinGeckoAPI.Models.AssetPlatform.htm">
+      <HelpTOCNode Id="fe3f8f2e-7ec3-4cce-812d-91f4918ba1b2" Title="AssetPlatform Properties" Url="html/Properties.T-CoinGeckoAPI.Models.AssetPlatform.htm">
         <HelpTOCNode Title="ChainIdentifier Property " Url="html/P-CoinGeckoAPI.Models.AssetPlatform.ChainIdentifier.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.AssetPlatform.Id.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.AssetPlatform.Name.htm" />
         <HelpTOCNode Title="Shortname Property " Url="html/P-CoinGeckoAPI.Models.AssetPlatform.Shortname.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a97173e4-ec35-4487-a72f-910eac1bbdbf" Title="CoinCategoriesItem Class" Url="html/T-CoinGeckoAPI.Models.CoinCategoriesItem.htm">
+    <HelpTOCNode Id="99fc0f9e-273c-4557-9627-53fff4190985" Title="CoinCategoriesItem Class" Url="html/T-CoinGeckoAPI.Models.CoinCategoriesItem.htm">
       <HelpTOCNode Title="CoinCategoriesItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinCategoriesItem.htm" />
-      <HelpTOCNode Id="e6c2ebb5-3533-4fba-8adf-070cb28185d9" Title="CoinCategoriesItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCategoriesItem.htm">
+      <HelpTOCNode Id="815fe406-7741-456d-97b4-e14e01b14935" Title="CoinCategoriesItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCategoriesItem.htm">
         <HelpTOCNode Title="Content Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Content.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Id.htm" />
         <HelpTOCNode Title="MarketCap Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.MarketCap.htm" />
@@ -174,16 +184,16 @@
         <HelpTOCNode Title="Volume24H Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Volume24H.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1adf7b30-7d39-4588-92c6-83fef15ee663" Title="CoinCategoriesListItem Class" Url="html/T-CoinGeckoAPI.Models.CoinCategoriesListItem.htm">
+    <HelpTOCNode Id="e1c3a5f7-132a-4769-a6f1-f17a98c9252a" Title="CoinCategoriesListItem Class" Url="html/T-CoinGeckoAPI.Models.CoinCategoriesListItem.htm">
       <HelpTOCNode Title="CoinCategoriesListItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinCategoriesListItem.htm" />
-      <HelpTOCNode Id="365dde58-9fa5-4597-a6ee-9425e89b82a3" Title="CoinCategoriesListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCategoriesListItem.htm">
+      <HelpTOCNode Id="f513c4a6-38bd-4620-97b2-a641a5872768" Title="CoinCategoriesListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCategoriesListItem.htm">
         <HelpTOCNode Title="CategoryId Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesListItem.CategoryId.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.CoinCategoriesListItem.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9f705296-14a2-425b-ae8b-724e7bb2d18b" Title="CoinCommunityData Class" Url="html/T-CoinGeckoAPI.Models.CoinCommunityData.htm">
+    <HelpTOCNode Id="9aae9326-f939-4d7c-9b62-453d7000dd45" Title="CoinCommunityData Class" Url="html/T-CoinGeckoAPI.Models.CoinCommunityData.htm">
       <HelpTOCNode Title="CoinCommunityData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinCommunityData.htm" />
-      <HelpTOCNode Id="4858b040-c03d-4b04-b828-7cc157e568d0" Title="CoinCommunityData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCommunityData.htm">
+      <HelpTOCNode Id="5578dce5-21a0-4db5-a6ca-a1c51a78ef79" Title="CoinCommunityData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinCommunityData.htm">
         <HelpTOCNode Title="FacebookLikes Property " Url="html/P-CoinGeckoAPI.Models.CoinCommunityData.FacebookLikes.htm" />
         <HelpTOCNode Title="RedditAccountsActive48H Property " Url="html/P-CoinGeckoAPI.Models.CoinCommunityData.RedditAccountsActive48H.htm" />
         <HelpTOCNode Title="RedditAverageComments48H Property " Url="html/P-CoinGeckoAPI.Models.CoinCommunityData.RedditAverageComments48H.htm" />
@@ -193,9 +203,9 @@
         <HelpTOCNode Title="TwitterFollowers Property " Url="html/P-CoinGeckoAPI.Models.CoinCommunityData.TwitterFollowers.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c742970c-8284-45f1-b5ac-5c21acecca17" Title="CoinContractResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinContractResponse.htm">
+    <HelpTOCNode Id="dc550cdf-c897-4c42-b4ce-d97f831fa2eb" Title="CoinContractResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinContractResponse.htm">
       <HelpTOCNode Title="CoinContractResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinContractResponse.htm" />
-      <HelpTOCNode Id="3d027d42-5a6f-42e0-861e-3e66dce57798" Title="CoinContractResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinContractResponse.htm">
+      <HelpTOCNode Id="f5453727-7c4c-41fe-a600-52c65f4c4897" Title="CoinContractResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinContractResponse.htm">
         <HelpTOCNode Title="AdditionalNotices Property " Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.AdditionalNotices.htm" />
         <HelpTOCNode Title="AssetPlatformId Property " Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.AssetPlatformId.htm" />
         <HelpTOCNode Title="BlockTimeInMinutes Property " Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.BlockTimeInMinutes.htm" />
@@ -232,9 +242,9 @@
         <HelpTOCNode Title="Tickers Property " Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.Tickers.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2efaa522-5a99-4de7-8ec1-2a62ecb09d2c" Title="CoinDeveloperData Class" Url="html/T-CoinGeckoAPI.Models.CoinDeveloperData.htm">
+    <HelpTOCNode Id="303218c2-c0cb-403c-92d8-8a8d9b044853" Title="CoinDeveloperData Class" Url="html/T-CoinGeckoAPI.Models.CoinDeveloperData.htm">
       <HelpTOCNode Title="CoinDeveloperData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinDeveloperData.htm" />
-      <HelpTOCNode Id="fc46d117-87c2-4898-9335-9fe012fb6733" Title="CoinDeveloperData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinDeveloperData.htm">
+      <HelpTOCNode Id="704680e6-112c-433b-ae58-859b7956124f" Title="CoinDeveloperData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinDeveloperData.htm">
         <HelpTOCNode Title="ClosedIssues Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.ClosedIssues.htm" />
         <HelpTOCNode Title="CodeAdditionsDeletions4_Weeks Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.CodeAdditionsDeletions4_Weeks.htm" />
         <HelpTOCNode Title="CommitCount4_Weeks Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.CommitCount4_Weeks.htm" />
@@ -247,16 +257,16 @@
         <HelpTOCNode Title="TotalIssues Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperData.TotalIssues.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e7cdf7bd-afab-4a7f-8b09-e6644d1b9ffa" Title="CoinDeveloperDataCodeAddDels Class" Url="html/T-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.htm">
+    <HelpTOCNode Id="2cabcdd3-62b4-4588-b0ef-23f198ca79c8" Title="CoinDeveloperDataCodeAddDels Class" Url="html/T-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.htm">
       <HelpTOCNode Title="CoinDeveloperDataCodeAddDels Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.htm" />
-      <HelpTOCNode Id="8ff317e7-4fd3-4ed8-87c4-6e533d7e577c" Title="CoinDeveloperDataCodeAddDels Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.htm">
+      <HelpTOCNode Id="6661d684-8aa9-43a3-ab40-5a244fe4190b" Title="CoinDeveloperDataCodeAddDels Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.htm">
         <HelpTOCNode Title="Additions Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.Additions.htm" />
         <HelpTOCNode Title="Deletions Property " Url="html/P-CoinGeckoAPI.Models.CoinDeveloperDataCodeAddDels.Deletions.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5d022b68-fd21-4acb-ba39-4b39e4688c41" Title="CoinHistoryResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinHistoryResponse.htm">
+    <HelpTOCNode Id="e53ec5e2-f091-422b-a4a8-ef2753afdd7e" Title="CoinHistoryResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinHistoryResponse.htm">
       <HelpTOCNode Title="CoinHistoryResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinHistoryResponse.htm" />
-      <HelpTOCNode Id="f58a6d2b-0a2b-43ee-943f-b4e9d42ab93b" Title="CoinHistoryResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinHistoryResponse.htm">
+      <HelpTOCNode Id="2c913e74-3722-4ffa-aa2a-a36ee15c981a" Title="CoinHistoryResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinHistoryResponse.htm">
         <HelpTOCNode Title="CommunityData Property " Url="html/P-CoinGeckoAPI.Models.CoinHistoryResponse.CommunityData.htm" />
         <HelpTOCNode Title="DeveloperData Property " Url="html/P-CoinGeckoAPI.Models.CoinHistoryResponse.DeveloperData.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.CoinHistoryResponse.Id.htm" />
@@ -268,9 +278,9 @@
         <HelpTOCNode Title="Symbol Property " Url="html/P-CoinGeckoAPI.Models.CoinHistoryResponse.Symbol.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1c8a3aa5-70df-403a-b79d-a10ebc60d2a6" Title="CoinIcoData Class" Url="html/T-CoinGeckoAPI.Models.CoinIcoData.htm">
+    <HelpTOCNode Id="c5ccb37d-901d-480a-a664-b2672fd42365" Title="CoinIcoData Class" Url="html/T-CoinGeckoAPI.Models.CoinIcoData.htm">
       <HelpTOCNode Title="CoinIcoData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinIcoData.htm" />
-      <HelpTOCNode Id="2662181d-60f9-4c5d-a8bd-bb5e9f2aebda" Title="CoinIcoData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinIcoData.htm">
+      <HelpTOCNode Id="efafa69e-f3f0-4c57-a38e-89e55809734c" Title="CoinIcoData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinIcoData.htm">
         <HelpTOCNode Title="AcceptingCurrencies Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoData.AcceptingCurrencies.htm" />
         <HelpTOCNode Title="AmountForSale Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoData.AmountForSale.htm" />
         <HelpTOCNode Title="BasePreSaleAmount Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoData.BasePreSaleAmount.htm" />
@@ -303,9 +313,9 @@
         <HelpTOCNode Title="WhitelistUrl Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoData.WhitelistUrl.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2feca469-e8a3-4b43-897b-571f4fc2e713" Title="CoinIcoLinks Class" Url="html/T-CoinGeckoAPI.Models.CoinIcoLinks.htm">
+    <HelpTOCNode Id="38911109-b02d-48c6-b3b8-d3ff308d24af" Title="CoinIcoLinks Class" Url="html/T-CoinGeckoAPI.Models.CoinIcoLinks.htm">
       <HelpTOCNode Title="CoinIcoLinks Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinIcoLinks.htm" />
-      <HelpTOCNode Id="c95ff85d-82eb-48bb-9e73-d8ab1c7d5432" Title="CoinIcoLinks Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinIcoLinks.htm">
+      <HelpTOCNode Id="efd4c700-2713-4a10-837e-f41e060a401f" Title="CoinIcoLinks Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinIcoLinks.htm">
         <HelpTOCNode Title="Blog Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Blog.htm" />
         <HelpTOCNode Title="Facebook Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Facebook.htm" />
         <HelpTOCNode Title="Github Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Github.htm" />
@@ -316,17 +326,17 @@
         <HelpTOCNode Title="Whitepaper Property " Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Whitepaper.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="19f3b1a0-3ceb-42e1-a60c-438585a60c0b" Title="CoinImage Class" Url="html/T-CoinGeckoAPI.Models.CoinImage.htm">
+    <HelpTOCNode Id="441b2d42-fc4e-4934-8990-b36385257098" Title="CoinImage Class" Url="html/T-CoinGeckoAPI.Models.CoinImage.htm">
       <HelpTOCNode Title="CoinImage Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinImage.htm" />
-      <HelpTOCNode Id="a2a10704-4923-4ca0-9a7a-5120df591fff" Title="CoinImage Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinImage.htm">
+      <HelpTOCNode Id="f56aeef2-4041-4e45-a3e6-dfc77aa2f35a" Title="CoinImage Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinImage.htm">
         <HelpTOCNode Title="Large Property " Url="html/P-CoinGeckoAPI.Models.CoinImage.Large.htm" />
         <HelpTOCNode Title="Small Property " Url="html/P-CoinGeckoAPI.Models.CoinImage.Small.htm" />
         <HelpTOCNode Title="Thumb Property " Url="html/P-CoinGeckoAPI.Models.CoinImage.Thumb.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c7af7d02-076f-4355-8c69-da59c1677870" Title="CoinLinks Class" Url="html/T-CoinGeckoAPI.Models.CoinLinks.htm">
+    <HelpTOCNode Id="beca0d6a-d532-4499-a97a-565e51bed93a" Title="CoinLinks Class" Url="html/T-CoinGeckoAPI.Models.CoinLinks.htm">
       <HelpTOCNode Title="CoinLinks Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinLinks.htm" />
-      <HelpTOCNode Id="35df663c-734e-4a17-a306-79852fc5215f" Title="CoinLinks Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinLinks.htm">
+      <HelpTOCNode Id="c763f49b-d9c6-40b9-8ce7-c78465356d93" Title="CoinLinks Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinLinks.htm">
         <HelpTOCNode Title="AnnouncementUrl Property " Url="html/P-CoinGeckoAPI.Models.CoinLinks.AnnouncementUrl.htm" />
         <HelpTOCNode Title="BitcointalkThreadIdentifier Property " Url="html/P-CoinGeckoAPI.Models.CoinLinks.BitcointalkThreadIdentifier.htm" />
         <HelpTOCNode Title="BlockchainSite Property " Url="html/P-CoinGeckoAPI.Models.CoinLinks.BlockchainSite.htm" />
@@ -340,20 +350,20 @@
         <HelpTOCNode Title="TwitterScreenName Property " Url="html/P-CoinGeckoAPI.Models.CoinLinks.TwitterScreenName.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6c88bcce-3db9-4d41-8705-a2e8ef0f69b8" Title="CoinMarketChartResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
+    <HelpTOCNode Id="ed5c9fc1-bc2a-4a44-a07a-f993393c2f9c" Title="CoinMarketChartResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
       <HelpTOCNode Title="CoinMarketChartResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm" />
-      <HelpTOCNode Id="a2314ff5-c838-476a-87ba-4de21e809747" Title="CoinMarketChartResponse Methods" Url="html/Methods.T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
+      <HelpTOCNode Id="ba4293ed-e86e-449f-b9d5-9eda68b31de6" Title="CoinMarketChartResponse Methods" Url="html/Methods.T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
         <HelpTOCNode Title="ToMarketChartCombinedItems Method " Url="html/M-CoinGeckoAPI.Models.CoinMarketChartResponse.ToMarketChartCombinedItems.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="79c09bda-96b8-46d9-88d2-749e6160ae2b" Title="CoinMarketChartResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
+      <HelpTOCNode Id="58ca238b-8a4c-4df0-bd4f-1544633609a5" Title="CoinMarketChartResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketChartResponse.htm">
         <HelpTOCNode Title="MarketCaps Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketChartResponse.MarketCaps.htm" />
         <HelpTOCNode Title="Prices Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketChartResponse.Prices.htm" />
         <HelpTOCNode Title="TotalVolumes Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketChartResponse.TotalVolumes.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b38e3732-2933-4f60-a8a7-8676e09a687b" Title="CoinMarketData Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketData.htm">
+    <HelpTOCNode Id="a1e704f2-ee96-4cd6-9740-c5a9e4d32e59" Title="CoinMarketData Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketData.htm">
       <HelpTOCNode Title="CoinMarketData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinMarketData.htm" />
-      <HelpTOCNode Id="ae9b2f16-04dc-4b04-b6b9-30707a561c7f" Title="CoinMarketData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketData.htm">
+      <HelpTOCNode Id="109f5708-a283-4ae6-8f4b-8d3337231936" Title="CoinMarketData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketData.htm">
         <HelpTOCNode Title="Ath Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketData.Ath.htm" />
         <HelpTOCNode Title="AthChangePercentage Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketData.AthChangePercentage.htm" />
         <HelpTOCNode Title="AthDate Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketData.AthDate.htm" />
@@ -399,31 +409,31 @@
         <HelpTOCNode Title="TotalVolume Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketData.TotalVolume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="541d9f9c-96fc-49df-be3a-d96383245188" Title="CoinMarketDataSlim Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketDataSlim.htm">
+    <HelpTOCNode Id="7461deba-1cc2-41a2-a7a8-96162391ee7e" Title="CoinMarketDataSlim Class" Url="html/T-CoinGeckoAPI.Models.CoinMarketDataSlim.htm">
       <HelpTOCNode Title="CoinMarketDataSlim Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinMarketDataSlim.htm" />
-      <HelpTOCNode Id="6c15906c-965a-4611-b4e1-f914da8ce4d9" Title="CoinMarketDataSlim Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketDataSlim.htm">
+      <HelpTOCNode Id="50460c3a-9d9a-429b-b96f-5fd91e96a8ca" Title="CoinMarketDataSlim Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinMarketDataSlim.htm">
         <HelpTOCNode Title="CurrentPrice Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketDataSlim.CurrentPrice.htm" />
         <HelpTOCNode Title="MarketCap Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketDataSlim.MarketCap.htm" />
         <HelpTOCNode Title="TotalVolume Property " Url="html/P-CoinGeckoAPI.Models.CoinMarketDataSlim.TotalVolume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="92e198a9-931e-4c45-9419-bf4eb3c85e1e" Title="CoinPlatformDetail Class" Url="html/T-CoinGeckoAPI.Models.CoinPlatformDetail.htm">
+    <HelpTOCNode Id="c98bc916-1799-4ad2-aa99-55e9f6b2b9d9" Title="CoinPlatformDetail Class" Url="html/T-CoinGeckoAPI.Models.CoinPlatformDetail.htm">
       <HelpTOCNode Title="CoinPlatformDetail Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinPlatformDetail.htm" />
-      <HelpTOCNode Id="2848026b-df4b-4c1e-91d2-ad2d9a9c6661" Title="CoinPlatformDetail Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinPlatformDetail.htm">
+      <HelpTOCNode Id="e061beee-4e25-4e29-840b-d803bfd808bd" Title="CoinPlatformDetail Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinPlatformDetail.htm">
         <HelpTOCNode Title="ContractAddress Property " Url="html/P-CoinGeckoAPI.Models.CoinPlatformDetail.ContractAddress.htm" />
         <HelpTOCNode Title="DecimalPlace Property " Url="html/P-CoinGeckoAPI.Models.CoinPlatformDetail.DecimalPlace.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="82c5e5df-46bb-4789-9ee6-9d8c5cf79bb7" Title="CoinPublicInterestStats Class" Url="html/T-CoinGeckoAPI.Models.CoinPublicInterestStats.htm">
+    <HelpTOCNode Id="51465d2e-77c4-4b43-89f6-a276fe1568a1" Title="CoinPublicInterestStats Class" Url="html/T-CoinGeckoAPI.Models.CoinPublicInterestStats.htm">
       <HelpTOCNode Title="CoinPublicInterestStats Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinPublicInterestStats.htm" />
-      <HelpTOCNode Id="31844e47-ffa4-455a-b2cc-60f3656b7224" Title="CoinPublicInterestStats Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinPublicInterestStats.htm">
+      <HelpTOCNode Id="66971220-1406-4d41-9264-c5e0b9c0bd60" Title="CoinPublicInterestStats Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinPublicInterestStats.htm">
         <HelpTOCNode Title="AlexaRank Property " Url="html/P-CoinGeckoAPI.Models.CoinPublicInterestStats.AlexaRank.htm" />
         <HelpTOCNode Title="BingMatches Property " Url="html/P-CoinGeckoAPI.Models.CoinPublicInterestStats.BingMatches.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6ae57a6b-bf43-4028-918e-c6777e47898b" Title="CoinResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinResponse.htm">
+    <HelpTOCNode Id="d1cb8a51-38f3-438f-b0fb-cc80ca399373" Title="CoinResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinResponse.htm">
       <HelpTOCNode Title="CoinResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinResponse.htm" />
-      <HelpTOCNode Id="b63f6db3-39b2-43a6-a6bb-ac6c2a046f18" Title="CoinResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinResponse.htm">
+      <HelpTOCNode Id="8c8184b0-4e95-44bd-a824-dc9ca98e4d4c" Title="CoinResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinResponse.htm">
         <HelpTOCNode Title="AdditionalNotices Property " Url="html/P-CoinGeckoAPI.Models.CoinResponse.AdditionalNotices.htm" />
         <HelpTOCNode Title="AssetPlatformId Property " Url="html/P-CoinGeckoAPI.Models.CoinResponse.AssetPlatformId.htm" />
         <HelpTOCNode Title="BlockTimeInMinutes Property " Url="html/P-CoinGeckoAPI.Models.CoinResponse.BlockTimeInMinutes.htm" />
@@ -460,9 +470,9 @@
         <HelpTOCNode Title="Tickers Property " Url="html/P-CoinGeckoAPI.Models.CoinResponse.Tickers.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6bd7d04e-1c17-4042-9503-d9d9ad9ffea4" Title="CoinSearchItem Class" Url="html/T-CoinGeckoAPI.Models.CoinSearchItem.htm">
+    <HelpTOCNode Id="f1edcd27-b695-4947-88c1-d21b96715845" Title="CoinSearchItem Class" Url="html/T-CoinGeckoAPI.Models.CoinSearchItem.htm">
       <HelpTOCNode Title="CoinSearchItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinSearchItem.htm" />
-      <HelpTOCNode Id="f031f252-6ffc-4d90-9101-db45ebbe7e19" Title="CoinSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinSearchItem.htm">
+      <HelpTOCNode Id="d5af0b11-1a58-4943-96b6-62c18c8faafb" Title="CoinSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinSearchItem.htm">
         <HelpTOCNode Title="ApiSymbol Property " Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.ApiSymbol.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Id.htm" />
         <HelpTOCNode Title="Large Property " Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Large.htm" />
@@ -476,18 +486,18 @@
         <HelpTOCNode Title="Thumb Property " Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Thumb.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="96f428e5-5576-450f-96ca-d2ccb8d8c2c8" Title="CoinsListItem Class" Url="html/T-CoinGeckoAPI.Models.CoinsListItem.htm">
+    <HelpTOCNode Id="b2ace3df-d8c2-4db8-9813-be7322ee1caf" Title="CoinsListItem Class" Url="html/T-CoinGeckoAPI.Models.CoinsListItem.htm">
       <HelpTOCNode Title="CoinsListItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinsListItem.htm" />
-      <HelpTOCNode Id="4cd079da-a456-446a-a8fe-d6cbfa918beb" Title="CoinsListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinsListItem.htm">
+      <HelpTOCNode Id="545f904d-9f8b-401d-8a15-1ab9d05f53a6" Title="CoinsListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinsListItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.CoinsListItem.Id.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.CoinsListItem.Name.htm" />
         <HelpTOCNode Title="Platforms Property " Url="html/P-CoinGeckoAPI.Models.CoinsListItem.Platforms.htm" />
         <HelpTOCNode Title="Symbol Property " Url="html/P-CoinGeckoAPI.Models.CoinsListItem.Symbol.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="322783a6-477e-4e9d-afe5-f79e551f3603" Title="CoinsMarketItem Class" Url="html/T-CoinGeckoAPI.Models.CoinsMarketItem.htm">
+    <HelpTOCNode Id="172409ab-8ef6-486d-8920-723582f4caef" Title="CoinsMarketItem Class" Url="html/T-CoinGeckoAPI.Models.CoinsMarketItem.htm">
       <HelpTOCNode Title="CoinsMarketItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinsMarketItem.htm" />
-      <HelpTOCNode Id="9bc1134b-964b-453d-bfbb-d030f1797a18" Title="CoinsMarketItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinsMarketItem.htm">
+      <HelpTOCNode Id="7c910a6c-89f0-487a-885c-869f8fbecf74" Title="CoinsMarketItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinsMarketItem.htm">
         <HelpTOCNode Title="Ath Property " Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.Ath.htm" />
         <HelpTOCNode Title="AthChangePercentage Property " Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.AthChangePercentage.htm" />
         <HelpTOCNode Title="AthDate Property " Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.AthDate.htm" />
@@ -524,9 +534,9 @@
         <HelpTOCNode Title="TotalVolume Property " Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.TotalVolume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="faa0024c-0038-4765-b58a-39cb3f82d6e1" Title="CoinTicker Class" Url="html/T-CoinGeckoAPI.Models.CoinTicker.htm">
+    <HelpTOCNode Id="deee9f08-db81-4bf8-b2fe-61219b19cd41" Title="CoinTicker Class" Url="html/T-CoinGeckoAPI.Models.CoinTicker.htm">
       <HelpTOCNode Title="CoinTicker Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinTicker.htm" />
-      <HelpTOCNode Id="3d5848c1-33c4-4ba6-9b3b-7448fa83a8ba" Title="CoinTicker Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinTicker.htm">
+      <HelpTOCNode Id="0479e2d4-d5c1-4448-bb63-570eb871d966" Title="CoinTicker Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinTicker.htm">
         <HelpTOCNode Title="Base Property " Url="html/P-CoinGeckoAPI.Models.CoinTicker.Base.htm" />
         <HelpTOCNode Title="BidAskSpreadPercentage Property " Url="html/P-CoinGeckoAPI.Models.CoinTicker.BidAskSpreadPercentage.htm" />
         <HelpTOCNode Title="CoinId Property " Url="html/P-CoinGeckoAPI.Models.CoinTicker.CoinId.htm" />
@@ -549,25 +559,25 @@
         <HelpTOCNode Title="Volume Property " Url="html/P-CoinGeckoAPI.Models.CoinTicker.Volume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c0826a1d-e9ff-4b93-8544-e7d852d440f6" Title="CoinTickersResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinTickersResponse.htm">
+    <HelpTOCNode Id="4677a2ff-ec4d-443d-8f8f-2a055b5234f9" Title="CoinTickersResponse Class" Url="html/T-CoinGeckoAPI.Models.CoinTickersResponse.htm">
       <HelpTOCNode Title="CoinTickersResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinTickersResponse.htm" />
-      <HelpTOCNode Id="deda7e55-3489-4c25-a9c6-0e11311cdf03" Title="CoinTickersResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinTickersResponse.htm">
+      <HelpTOCNode Id="43c4aa48-2a04-4a91-a654-e7d0f0cf32c8" Title="CoinTickersResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CoinTickersResponse.htm">
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.CoinTickersResponse.Name.htm" />
         <HelpTOCNode Title="Tickers Property " Url="html/P-CoinGeckoAPI.Models.CoinTickersResponse.Tickers.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bba8086e-6060-43d3-b4e8-e5764bab274e" Title="CompaniesPubTreasResponse Class" Url="html/T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm">
+    <HelpTOCNode Id="06058afc-7ea7-49b7-b117-042b79c5d61a" Title="CompaniesPubTreasResponse Class" Url="html/T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm">
       <HelpTOCNode Title="CompaniesPubTreasResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm" />
-      <HelpTOCNode Id="895bc966-4543-4c4d-b30a-23fcc693901a" Title="CompaniesPubTreasResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm">
+      <HelpTOCNode Id="8bbabc68-16d4-43c1-87d7-440d40d67a76" Title="CompaniesPubTreasResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm">
         <HelpTOCNode Title="Companies Property " Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.Companies.htm" />
         <HelpTOCNode Title="MarketCapDominance Property " Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.MarketCapDominance.htm" />
         <HelpTOCNode Title="TotalHoldings Property " Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.TotalHoldings.htm" />
         <HelpTOCNode Title="TotalValueUsd Property " Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.TotalValueUsd.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="efea8222-bf51-4c79-b98c-7698499575fa" Title="CompanyInfo Class" Url="html/T-CoinGeckoAPI.Models.CompanyInfo.htm">
+    <HelpTOCNode Id="2d34529e-cbac-46a0-90d5-d4e514c0adaf" Title="CompanyInfo Class" Url="html/T-CoinGeckoAPI.Models.CompanyInfo.htm">
       <HelpTOCNode Title="CompanyInfo Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.CompanyInfo.htm" />
-      <HelpTOCNode Id="b6dcd885-1003-4cc7-be63-a9fbd0990c5d" Title="CompanyInfo Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CompanyInfo.htm">
+      <HelpTOCNode Id="8056733a-8857-4bbe-bbed-946d964ecb77" Title="CompanyInfo Properties" Url="html/Properties.T-CoinGeckoAPI.Models.CompanyInfo.htm">
         <HelpTOCNode Title="Country Property " Url="html/P-CoinGeckoAPI.Models.CompanyInfo.Country.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.CompanyInfo.Name.htm" />
         <HelpTOCNode Title="PercentageOfTotalSupply Property " Url="html/P-CoinGeckoAPI.Models.CompanyInfo.PercentageOfTotalSupply.htm" />
@@ -577,9 +587,9 @@
         <HelpTOCNode Title="TotalHoldings Property " Url="html/P-CoinGeckoAPI.Models.CompanyInfo.TotalHoldings.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6709f8e7-fa2e-4d5f-af26-f15bc574ed09" Title="DerivativesExchangeDetailItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.htm">
+    <HelpTOCNode Id="7cd06455-231d-453b-b4fb-42487a9d5534" Title="DerivativesExchangeDetailItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.htm">
       <HelpTOCNode Title="DerivativesExchangeDetailItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.htm" />
-      <HelpTOCNode Id="3f4c1578-447e-4020-9506-ca4b108ae585" Title="DerivativesExchangeDetailItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.htm">
+      <HelpTOCNode Id="e3260522-d82b-4ada-8560-0831bb7794c3" Title="DerivativesExchangeDetailItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.htm">
         <HelpTOCNode Title="Country Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.Country.htm" />
         <HelpTOCNode Title="Description Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.Description.htm" />
         <HelpTOCNode Title="Image Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.Image.htm" />
@@ -593,9 +603,9 @@
         <HelpTOCNode Title="YearEstablished Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.YearEstablished.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5d184c6c-e4cf-4fa3-862f-5d7ca2af5baa" Title="DerivativesExchangeItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesExchangeItem.htm">
+    <HelpTOCNode Id="88805d19-deea-4dd1-b87d-7f0bd652c7f5" Title="DerivativesExchangeItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesExchangeItem.htm">
       <HelpTOCNode Title="DerivativesExchangeItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.DerivativesExchangeItem.htm" />
-      <HelpTOCNode Id="e553b104-5acc-4bd6-af2c-6aebbe17991a" Title="DerivativesExchangeItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesExchangeItem.htm">
+      <HelpTOCNode Id="79290dec-93af-482c-aa86-5fcbdabb7384" Title="DerivativesExchangeItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesExchangeItem.htm">
         <HelpTOCNode Title="Country Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.Country.htm" />
         <HelpTOCNode Title="Description Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.Description.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.Id.htm" />
@@ -609,9 +619,9 @@
         <HelpTOCNode Title="YearEstablished Property " Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.YearEstablished.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3ab8c73b-9594-482f-800c-2388d9ce67fc" Title="DerivativesTicker Class" Url="html/T-CoinGeckoAPI.Models.DerivativesTicker.htm">
+    <HelpTOCNode Id="a1e9ef48-1147-414b-877d-223cc73c25dc" Title="DerivativesTicker Class" Url="html/T-CoinGeckoAPI.Models.DerivativesTicker.htm">
       <HelpTOCNode Title="DerivativesTicker Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.DerivativesTicker.htm" />
-      <HelpTOCNode Id="543d0853-03f0-4e2f-8aa8-4441078096a9" Title="DerivativesTicker Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesTicker.htm">
+      <HelpTOCNode Id="d20381fa-a52d-462b-b952-8f5641c51e58" Title="DerivativesTicker Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesTicker.htm">
         <HelpTOCNode Title="Base Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.Base.htm" />
         <HelpTOCNode Title="BidAskSpread Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.BidAskSpread.htm" />
         <HelpTOCNode Title="ContractType Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.ContractType.htm" />
@@ -631,9 +641,9 @@
         <HelpTOCNode Title="TradeUrl Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.TradeUrl.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bf47d9ef-9336-4f29-a357-110f66b6f2ed" Title="DerivativesTickerItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesTickerItem.htm">
+    <HelpTOCNode Id="71f824f7-8c87-4059-af2d-7fc5f50a3b30" Title="DerivativesTickerItem Class" Url="html/T-CoinGeckoAPI.Models.DerivativesTickerItem.htm">
       <HelpTOCNode Title="DerivativesTickerItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.DerivativesTickerItem.htm" />
-      <HelpTOCNode Id="1ea21308-844d-430b-852f-0cdef765c35c" Title="DerivativesTickerItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesTickerItem.htm">
+      <HelpTOCNode Id="eabfbc53-d128-433b-9195-9630d02775f8" Title="DerivativesTickerItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.DerivativesTickerItem.htm">
         <HelpTOCNode Title="Basis Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.Basis.htm" />
         <HelpTOCNode Title="ContractType Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.ContractType.htm" />
         <HelpTOCNode Title="ExpiredAt Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.ExpiredAt.htm" />
@@ -650,9 +660,9 @@
         <HelpTOCNode Title="Volume24H Property " Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.Volume24H.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bbb4ff86-101b-47a3-9837-e8a140239931" Title="ExchangeItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeItem.htm">
+    <HelpTOCNode Id="d405439a-5752-417b-b377-843681086199" Title="ExchangeItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeItem.htm">
       <HelpTOCNode Title="ExchangeItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeItem.htm" />
-      <HelpTOCNode Id="bcb3e0b6-4132-409a-8db2-a64462e7a803" Title="ExchangeItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeItem.htm">
+      <HelpTOCNode Id="969f76ed-aee4-403b-b978-748220472c4c" Title="ExchangeItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeItem.htm">
         <HelpTOCNode Title="Country Property " Url="html/P-CoinGeckoAPI.Models.ExchangeItem.Country.htm" />
         <HelpTOCNode Title="Description Property " Url="html/P-CoinGeckoAPI.Models.ExchangeItem.Description.htm" />
         <HelpTOCNode Title="HasTradingIncentive Property " Url="html/P-CoinGeckoAPI.Models.ExchangeItem.HasTradingIncentive.htm" />
@@ -667,24 +677,24 @@
         <HelpTOCNode Title="YearEstablished Property " Url="html/P-CoinGeckoAPI.Models.ExchangeItem.YearEstablished.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="162803f6-f34e-4e8c-85d5-e669d01c6aaa" Title="ExchangeRate Class" Url="html/T-CoinGeckoAPI.Models.ExchangeRate.htm">
+    <HelpTOCNode Id="48c35a30-4bb5-4aab-9944-1b01b506b71c" Title="ExchangeRate Class" Url="html/T-CoinGeckoAPI.Models.ExchangeRate.htm">
       <HelpTOCNode Title="ExchangeRate Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeRate.htm" />
-      <HelpTOCNode Id="f8558215-fd00-4ea0-87c4-55899daf11c1" Title="ExchangeRate Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeRate.htm">
+      <HelpTOCNode Id="28f5941e-61f1-4de4-9690-82ca7c6fe385" Title="ExchangeRate Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeRate.htm">
         <HelpTOCNode Title="AssetType Property " Url="html/P-CoinGeckoAPI.Models.ExchangeRate.AssetType.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.ExchangeRate.Name.htm" />
         <HelpTOCNode Title="Unit Property " Url="html/P-CoinGeckoAPI.Models.ExchangeRate.Unit.htm" />
         <HelpTOCNode Title="Value Property " Url="html/P-CoinGeckoAPI.Models.ExchangeRate.Value.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7630923d-3d3a-433e-a016-16c244f267a0" Title="ExchangeRatesResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeRatesResponse.htm">
+    <HelpTOCNode Id="09762ff4-b84c-45c4-81d3-506879f58808" Title="ExchangeRatesResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeRatesResponse.htm">
       <HelpTOCNode Title="ExchangeRatesResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeRatesResponse.htm" />
-      <HelpTOCNode Id="6fe5b2b1-cacf-4e50-8e73-ec2ab22f8323" Title="ExchangeRatesResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeRatesResponse.htm">
+      <HelpTOCNode Id="f18a25b7-4ed6-488d-86df-d21089485dfd" Title="ExchangeRatesResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeRatesResponse.htm">
         <HelpTOCNode Title="Rates Property " Url="html/P-CoinGeckoAPI.Models.ExchangeRatesResponse.Rates.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e3051cc5-5d81-4e72-8e95-54a6fc10160e" Title="ExchangeResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeResponse.htm">
+    <HelpTOCNode Id="46693d88-d7a4-42cb-8457-77aafaa13cdd" Title="ExchangeResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeResponse.htm">
       <HelpTOCNode Title="ExchangeResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeResponse.htm" />
-      <HelpTOCNode Id="243d1bd2-9a16-4a28-90a5-3bf7c9880bb2" Title="ExchangeResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeResponse.htm">
+      <HelpTOCNode Id="891e5d56-8e00-4ecd-94e3-cb448fd3d19a" Title="ExchangeResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeResponse.htm">
         <HelpTOCNode Title="AlertNotice Property " Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.AlertNotice.htm" />
         <HelpTOCNode Title="Centralized Property " Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.Centralized.htm" />
         <HelpTOCNode Title="Country Property " Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.Country.htm" />
@@ -711,9 +721,9 @@
         <HelpTOCNode Title="YearEstablished Property " Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.YearEstablished.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="72721e99-c8c6-4fdd-ad14-4ffb408465a1" Title="ExchangeSearchItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeSearchItem.htm">
+    <HelpTOCNode Id="c29c76fd-9270-49d3-a425-91817cc262e7" Title="ExchangeSearchItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeSearchItem.htm">
       <HelpTOCNode Title="ExchangeSearchItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeSearchItem.htm" />
-      <HelpTOCNode Id="e14a2108-4101-4097-942b-03afbcf11f11" Title="ExchangeSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeSearchItem.htm">
+      <HelpTOCNode Id="01dcf487-8b37-408f-8ffb-d9315ec50e48" Title="ExchangeSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeSearchItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.Id.htm" />
         <HelpTOCNode Title="Large Property " Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.Large.htm" />
         <HelpTOCNode Title="MarketType Property " Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.MarketType.htm" />
@@ -721,23 +731,23 @@
         <HelpTOCNode Title="Thumb Property " Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.Thumb.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="97eadaf8-a8c1-4a1b-8051-92c8217eb799" Title="ExchangeTickersResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm">
+    <HelpTOCNode Id="099fba72-6e74-4b1f-9c15-cb436a10a813" Title="ExchangeTickersResponse Class" Url="html/T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm">
       <HelpTOCNode Title="ExchangeTickersResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm" />
-      <HelpTOCNode Id="97a3c875-68fe-4628-a5d7-4e4802635ee3" Title="ExchangeTickersResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm">
+      <HelpTOCNode Id="92ce6b18-5910-458c-a360-754f679d10bf" Title="ExchangeTickersResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm">
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.ExchangeTickersResponse.Name.htm" />
         <HelpTOCNode Title="Tickers Property " Url="html/P-CoinGeckoAPI.Models.ExchangeTickersResponse.Tickers.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="21d99f8c-2890-4635-89ef-2d8952fd4def" Title="ExchangeVolumeChartItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm">
+    <HelpTOCNode Id="afe1642e-a9d9-4c6e-8abe-7fecf2b816d1" Title="ExchangeVolumeChartItem Class" Url="html/T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm">
       <HelpTOCNode Title="ExchangeVolumeChartItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm" />
-      <HelpTOCNode Id="9b840a4a-99a0-4562-a915-38e0df7ce811" Title="ExchangeVolumeChartItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm">
+      <HelpTOCNode Id="cbe7a90a-e2ec-4813-8564-026697ab193f" Title="ExchangeVolumeChartItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.ExchangeVolumeChartItem.htm">
         <HelpTOCNode Title="Timestamp Property " Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Timestamp.htm" />
         <HelpTOCNode Title="Volume Property " Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Volume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d8f9af9c-a431-44c5-88fe-270cfb4ebe04" Title="GlobalData Class" Url="html/T-CoinGeckoAPI.Models.GlobalData.htm">
+    <HelpTOCNode Id="daa6cbbc-6a65-4f95-a17a-aefb22c080a2" Title="GlobalData Class" Url="html/T-CoinGeckoAPI.Models.GlobalData.htm">
       <HelpTOCNode Title="GlobalData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalData.htm" />
-      <HelpTOCNode Id="7e5385de-f981-4006-92a4-f9951e679312" Title="GlobalData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalData.htm">
+      <HelpTOCNode Id="f86b8410-b388-4bff-98d5-4b9d9effc6e7" Title="GlobalData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalData.htm">
         <HelpTOCNode Title="ActiveCryptocurrencies Property " Url="html/P-CoinGeckoAPI.Models.GlobalData.ActiveCryptocurrencies.htm" />
         <HelpTOCNode Title="EndedIcos Property " Url="html/P-CoinGeckoAPI.Models.GlobalData.EndedIcos.htm" />
         <HelpTOCNode Title="MarketCapChangePercentage24HUsd Property " Url="html/P-CoinGeckoAPI.Models.GlobalData.MarketCapChangePercentage24HUsd.htm" />
@@ -750,9 +760,9 @@
         <HelpTOCNode Title="UpdatedAt Property " Url="html/P-CoinGeckoAPI.Models.GlobalData.UpdatedAt.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9d975966-adef-4fef-ba7b-e10ca3c2d4c4" Title="GlobalDefiData Class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiData.htm">
+    <HelpTOCNode Id="9f506e6d-2381-4d10-9ae2-4381c55064d8" Title="GlobalDefiData Class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiData.htm">
       <HelpTOCNode Title="GlobalDefiData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalDefiData.htm" />
-      <HelpTOCNode Id="3006efc1-3505-482a-988d-d3e761d004ff" Title="GlobalDefiData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalDefiData.htm">
+      <HelpTOCNode Id="bfe83487-09c7-4009-bffe-236206e4f3a3" Title="GlobalDefiData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalDefiData.htm">
         <HelpTOCNode Title="DefiDominance Property " Url="html/P-CoinGeckoAPI.Models.GlobalDefiData.DefiDominance.htm" />
         <HelpTOCNode Title="DefiMarketCap Property " Url="html/P-CoinGeckoAPI.Models.GlobalDefiData.DefiMarketCap.htm" />
         <HelpTOCNode Title="DefiToEthRatio Property " Url="html/P-CoinGeckoAPI.Models.GlobalDefiData.DefiToEthRatio.htm" />
@@ -762,28 +772,34 @@
         <HelpTOCNode Title="TradingVolume24H Property " Url="html/P-CoinGeckoAPI.Models.GlobalDefiData.TradingVolume24H.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d4c7b7ba-ebc3-4a2b-8053-f4b959efccca" Title="GlobalDefiResponse Class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiResponse.htm">
+    <HelpTOCNode Id="965f21a9-15a2-4bf1-8159-e774e335d903" Title="GlobalDefiResponse Class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiResponse.htm">
       <HelpTOCNode Title="GlobalDefiResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalDefiResponse.htm" />
-      <HelpTOCNode Id="12a17cec-789f-466a-b565-7a46854c638d" Title="GlobalDefiResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalDefiResponse.htm">
+      <HelpTOCNode Id="c92d975d-7ebf-4526-954d-94e05b160b2d" Title="GlobalDefiResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalDefiResponse.htm">
         <HelpTOCNode Title="Data Property " Url="html/P-CoinGeckoAPI.Models.GlobalDefiResponse.Data.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="97ad60b3-1d88-485c-89de-7cfd4b873160" Title="GlobalResponse Class" Url="html/T-CoinGeckoAPI.Models.GlobalResponse.htm">
+    <HelpTOCNode Id="5bf305a3-04f9-4a26-b124-d01dea8f5d7a" Title="GlobalMarketCapChartResponse Class" Url="html/T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm">
+      <HelpTOCNode Title="GlobalMarketCapChartResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+      <HelpTOCNode Id="9aab68ab-23e6-41c2-8a20-fa9ff637f3df" Title="GlobalMarketCapChartResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm">
+        <HelpTOCNode Title="MarketCapChart Property " Url="html/P-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.MarketCapChart.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a0d98ff-9309-4a18-8d73-d8f8c636ce0c" Title="GlobalResponse Class" Url="html/T-CoinGeckoAPI.Models.GlobalResponse.htm">
       <HelpTOCNode Title="GlobalResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalResponse.htm" />
-      <HelpTOCNode Id="84a7aa7c-e6f2-4808-887d-e4e102f228db" Title="GlobalResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalResponse.htm">
+      <HelpTOCNode Id="803b0b47-dc5f-411c-b32c-6597e882b513" Title="GlobalResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalResponse.htm">
         <HelpTOCNode Title="Data Property " Url="html/P-CoinGeckoAPI.Models.GlobalResponse.Data.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ca8cffb8-a2ff-452a-b721-f5ea46e78304" Title="IdNameListItem Class" Url="html/T-CoinGeckoAPI.Models.IdNameListItem.htm">
+    <HelpTOCNode Id="e760dabf-6cb1-4479-8bc4-739453f3cb0d" Title="IdNameListItem Class" Url="html/T-CoinGeckoAPI.Models.IdNameListItem.htm">
       <HelpTOCNode Title="IdNameListItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.IdNameListItem.htm" />
-      <HelpTOCNode Id="50f1cf6f-f2cb-4399-b7a5-b5498bc2ea34" Title="IdNameListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IdNameListItem.htm">
+      <HelpTOCNode Id="d07bd6ee-1d2e-48a9-924d-61b0dc8114e1" Title="IdNameListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IdNameListItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.IdNameListItem.Id.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.IdNameListItem.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="68150dca-cd5b-4fc7-b73b-217beddaf010" Title="IndexItem Class" Url="html/T-CoinGeckoAPI.Models.IndexItem.htm">
+    <HelpTOCNode Id="8881f567-d6f4-4d61-9957-0f97a7b7f774" Title="IndexItem Class" Url="html/T-CoinGeckoAPI.Models.IndexItem.htm">
       <HelpTOCNode Title="IndexItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.IndexItem.htm" />
-      <HelpTOCNode Id="3a2adba9-55eb-46d7-9eca-3cf6045016ab" Title="IndexItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IndexItem.htm">
+      <HelpTOCNode Id="7ad80d82-5f10-4eee-8f11-d63edb9cf1fb" Title="IndexItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IndexItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.IndexItem.Id.htm" />
         <HelpTOCNode Title="IsMultiAssetComposite Property " Url="html/P-CoinGeckoAPI.Models.IndexItem.IsMultiAssetComposite.htm" />
         <HelpTOCNode Title="Last Property " Url="html/P-CoinGeckoAPI.Models.IndexItem.Last.htm" />
@@ -791,16 +807,23 @@
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.IndexItem.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="36fa32ed-8f63-4b36-ba74-637bf79c7cbf" Title="IndexListItem Class" Url="html/T-CoinGeckoAPI.Models.IndexListItem.htm">
+    <HelpTOCNode Id="07f2395a-681e-4abc-83af-d8156447dc94" Title="IndexListItem Class" Url="html/T-CoinGeckoAPI.Models.IndexListItem.htm">
       <HelpTOCNode Title="IndexListItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.IndexListItem.htm" />
-      <HelpTOCNode Id="db00ea6f-9516-46db-b0f0-b25a255f2d87" Title="IndexListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IndexListItem.htm">
+      <HelpTOCNode Id="8403fa36-0035-4018-8694-9c310d0f5078" Title="IndexListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.IndexListItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.IndexListItem.Id.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.IndexListItem.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9bc2d783-59ba-4228-ba78-804061c0ec4d" Title="MarketChartCombinedItem Class" Url="html/T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm">
+    <HelpTOCNode Id="2578c026-d63c-44b5-85a1-852c810051b1" Title="MarketCapChartData Class" Url="html/T-CoinGeckoAPI.Models.MarketCapChartData.htm">
+      <HelpTOCNode Title="MarketCapChartData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+      <HelpTOCNode Id="1e77f840-51b8-4998-a331-6997427881ff" Title="MarketCapChartData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.MarketCapChartData.htm">
+        <HelpTOCNode Title="MarketCap Property " Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.MarketCap.htm" />
+        <HelpTOCNode Title="Volume Property " Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.Volume.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d692e016-e1ab-4a1d-a837-426fe0d498c9" Title="MarketChartCombinedItem Class" Url="html/T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm">
       <HelpTOCNode Title="MarketChartCombinedItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm" />
-      <HelpTOCNode Id="71143c52-8dda-446e-a8a9-7f93c27c113c" Title="MarketChartCombinedItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm">
+      <HelpTOCNode Id="141c97b1-9c30-4b62-9624-c51efed576ab" Title="MarketChartCombinedItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm">
         <HelpTOCNode Title="Date Property " Url="html/P-CoinGeckoAPI.Models.MarketChartCombinedItem.Date.htm" />
         <HelpTOCNode Title="MarketCap Property " Url="html/P-CoinGeckoAPI.Models.MarketChartCombinedItem.MarketCap.htm" />
         <HelpTOCNode Title="Price Property " Url="html/P-CoinGeckoAPI.Models.MarketChartCombinedItem.Price.htm" />
@@ -808,9 +831,9 @@
         <HelpTOCNode Title="TotalVolume Property " Url="html/P-CoinGeckoAPI.Models.MarketChartCombinedItem.TotalVolume.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e6c0556a-a97f-4618-917a-0af6ad6991ca" Title="NftListItem Class" Url="html/T-CoinGeckoAPI.Models.NftListItem.htm">
+    <HelpTOCNode Id="bd5c7331-43e8-416e-a272-06db9d94dfd0" Title="NftListItem Class" Url="html/T-CoinGeckoAPI.Models.NftListItem.htm">
       <HelpTOCNode Title="NftListItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftListItem.htm" />
-      <HelpTOCNode Id="111804c3-a089-483c-b218-593846bd6ed5" Title="NftListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftListItem.htm">
+      <HelpTOCNode Id="9f61c46e-8e3c-4834-b5a0-1330f1740867" Title="NftListItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftListItem.htm">
         <HelpTOCNode Title="AssetPlatformId Property " Url="html/P-CoinGeckoAPI.Models.NftListItem.AssetPlatformId.htm" />
         <HelpTOCNode Title="ContractAddress Property " Url="html/P-CoinGeckoAPI.Models.NftListItem.ContractAddress.htm" />
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.NftListItem.Id.htm" />
@@ -818,16 +841,16 @@
         <HelpTOCNode Title="Symbol Property " Url="html/P-CoinGeckoAPI.Models.NftListItem.Symbol.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="89a121f3-670d-4510-9056-609fda8a9744" Title="NftPriceItem Class" Url="html/T-CoinGeckoAPI.Models.NftPriceItem.htm">
+    <HelpTOCNode Id="567ddd2a-be94-4e50-bdaa-82f4a7c90a20" Title="NftPriceItem Class" Url="html/T-CoinGeckoAPI.Models.NftPriceItem.htm">
       <HelpTOCNode Title="NftPriceItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftPriceItem.htm" />
-      <HelpTOCNode Id="de39e9cc-ff5e-445b-b085-aa412fe99e9f" Title="NftPriceItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftPriceItem.htm">
+      <HelpTOCNode Id="00024129-e500-4fc3-85d6-355b40757efc" Title="NftPriceItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftPriceItem.htm">
         <HelpTOCNode Title="NativeCurrency Property " Url="html/P-CoinGeckoAPI.Models.NftPriceItem.NativeCurrency.htm" />
         <HelpTOCNode Title="Usd Property " Url="html/P-CoinGeckoAPI.Models.NftPriceItem.Usd.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="86de498b-e881-4c1a-9525-5ea6f3b7edf4" Title="NftResponse Class" Url="html/T-CoinGeckoAPI.Models.NftResponse.htm">
+    <HelpTOCNode Id="1b36be91-0166-40d3-a10b-0a94e8f82b0c" Title="NftResponse Class" Url="html/T-CoinGeckoAPI.Models.NftResponse.htm">
       <HelpTOCNode Title="NftResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftResponse.htm" />
-      <HelpTOCNode Id="4147639e-7be1-4c0f-b8b3-3582fd14b76e" Title="NftResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftResponse.htm">
+      <HelpTOCNode Id="2dfbffa5-f7e0-408f-85ae-df30337fb292" Title="NftResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftResponse.htm">
         <HelpTOCNode Title="AssetPlatformId Property " Url="html/P-CoinGeckoAPI.Models.NftResponse.AssetPlatformId.htm" />
         <HelpTOCNode Title="ContractAddress Property " Url="html/P-CoinGeckoAPI.Models.NftResponse.ContractAddress.htm" />
         <HelpTOCNode Title="Description Property " Url="html/P-CoinGeckoAPI.Models.NftResponse.Description.htm" />
@@ -844,18 +867,64 @@
         <HelpTOCNode Title="Volume24H Property " Url="html/P-CoinGeckoAPI.Models.NftResponse.Volume24H.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="89a1fc70-2264-4f9d-95ae-5f9bea5841ae" Title="NftSearchItem Class" Url="html/T-CoinGeckoAPI.Models.NftSearchItem.htm">
+    <HelpTOCNode Id="08678762-3803-4f05-84b7-3b1e6c154d77" Title="NftSearchItem Class" Url="html/T-CoinGeckoAPI.Models.NftSearchItem.htm">
       <HelpTOCNode Title="NftSearchItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftSearchItem.htm" />
-      <HelpTOCNode Id="a0ab5ddd-ba35-43fc-ba1a-c8d940a4c90e" Title="NftSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftSearchItem.htm">
+      <HelpTOCNode Id="3e36fbe6-acef-4798-9e85-10d336706701" Title="NftSearchItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftSearchItem.htm">
         <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Id.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Name.htm" />
         <HelpTOCNode Title="Symbol Property " Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Symbol.htm" />
         <HelpTOCNode Title="Thumb Property " Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Thumb.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="21e41b91-4085-476b-a054-a328bcbaa1ba" Title="OhlcItem Class" Url="html/T-CoinGeckoAPI.Models.OhlcItem.htm">
+    <HelpTOCNode Id="c825d582-1598-4f62-8a5e-4e958840b079" Title="NftsMarketChartResponse Class" Url="html/T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm">
+      <HelpTOCNode Title="NftsMarketChartResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+      <HelpTOCNode Id="959f9356-591e-464a-9798-47047f1407cb" Title="NftsMarketChartResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm">
+        <HelpTOCNode Title="FloorPriceNative Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceNative.htm" />
+        <HelpTOCNode Title="FloorPriceUsd Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceUsd.htm" />
+        <HelpTOCNode Title="H24VolumeNative Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeNative.htm" />
+        <HelpTOCNode Title="H24VolumeUsd Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeUsd.htm" />
+        <HelpTOCNode Title="MarketCapNative Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapNative.htm" />
+        <HelpTOCNode Title="MarketCapUsd Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapUsd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd20e7f7-61b3-44f7-bc09-a613c4c0ac46" Title="NftsMarketsResponse Class" Url="html/T-CoinGeckoAPI.Models.NftsMarketsResponse.htm">
+      <HelpTOCNode Title="NftsMarketsResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+      <HelpTOCNode Id="c99615c8-360f-471d-9fdb-ea04e9ec9c08" Title="NftsMarketsResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm">
+        <HelpTOCNode Title="AssetPlatformId Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.AssetPlatformId.htm" />
+        <HelpTOCNode Title="ContractAddress Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.ContractAddress.htm" />
+        <HelpTOCNode Title="Description Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Description.htm" />
+        <HelpTOCNode Title="FloorPrice Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPrice.htm" />
+        <HelpTOCNode Title="FloorPriceInUsd24HPercentageChange Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPriceInUsd24HPercentageChange.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Id.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Image.htm" />
+        <HelpTOCNode Title="MarketCap Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.MarketCap.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Name.htm" />
+        <HelpTOCNode Title="NativeCurrency Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NativeCurrency.htm" />
+        <HelpTOCNode Title="NumberOfUniqueAddresses Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses.htm" />
+        <HelpTOCNode Title="NumberOfUniqueAddresses24HPercentageChange Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses24HPercentageChange.htm" />
+        <HelpTOCNode Title="TotalSupply Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.TotalSupply.htm" />
+        <HelpTOCNode Title="Volume24H Property " Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Volume24H.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a1214bf-da62-4c9c-bb9b-3563497173c1" Title="NftsTickersResponse Class" Url="html/T-CoinGeckoAPI.Models.NftsTickersResponse.htm">
+      <HelpTOCNode Title="NftsTickersResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+      <HelpTOCNode Id="b392e976-84e3-4086-9207-c1e633c5c828" Title="NftsTickersResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsTickersResponse.htm">
+        <HelpTOCNode Title="Tickers Property " Url="html/P-CoinGeckoAPI.Models.NftsTickersResponse.Tickers.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e3533ae4-3bc2-42cf-a980-7f0dc6c94dfa" Title="NftTicker Class" Url="html/T-CoinGeckoAPI.Models.NftTicker.htm">
+      <HelpTOCNode Title="NftTicker Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftTicker.htm" />
+      <HelpTOCNode Id="6f913bf0-e379-42fd-b0a7-2e8d5edfb2bf" Title="NftTicker Properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftTicker.htm">
+        <HelpTOCNode Title="FloorPriceInNativeCurrency Property " Url="html/P-CoinGeckoAPI.Models.NftTicker.FloorPriceInNativeCurrency.htm" />
+        <HelpTOCNode Title="H24VolumeInNativeCurrency Property " Url="html/P-CoinGeckoAPI.Models.NftTicker.H24VolumeInNativeCurrency.htm" />
+        <HelpTOCNode Title="NativeCurrency Property " Url="html/P-CoinGeckoAPI.Models.NftTicker.NativeCurrency.htm" />
+        <HelpTOCNode Title="NftMarketplaceId Property " Url="html/P-CoinGeckoAPI.Models.NftTicker.NftMarketplaceId.htm" />
+        <HelpTOCNode Title="UpdatedAt Property " Url="html/P-CoinGeckoAPI.Models.NftTicker.UpdatedAt.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9a3667d7-84af-4e5e-8a50-e967b4536cd2" Title="OhlcItem Class" Url="html/T-CoinGeckoAPI.Models.OhlcItem.htm">
       <HelpTOCNode Title="OhlcItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.OhlcItem.htm" />
-      <HelpTOCNode Id="4b1c27fc-d9b1-4b7f-bd03-06675f6b5935" Title="OhlcItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.OhlcItem.htm">
+      <HelpTOCNode Id="b03a67b1-94d0-429d-9661-20148e49bb7d" Title="OhlcItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.OhlcItem.htm">
         <HelpTOCNode Title="Close Property " Url="html/P-CoinGeckoAPI.Models.OhlcItem.Close.htm" />
         <HelpTOCNode Title="High Property " Url="html/P-CoinGeckoAPI.Models.OhlcItem.High.htm" />
         <HelpTOCNode Title="Low Property " Url="html/P-CoinGeckoAPI.Models.OhlcItem.Low.htm" />
@@ -863,17 +932,17 @@
         <HelpTOCNode Title="Timestamp Property " Url="html/P-CoinGeckoAPI.Models.OhlcItem.Timestamp.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="342868fe-0d6f-4f0d-9490-31cbe801d263" Title="Roi Class" Url="html/T-CoinGeckoAPI.Models.Roi.htm">
+    <HelpTOCNode Id="2157ac09-8bfd-45d4-8e20-d99773d414f7" Title="Roi Class" Url="html/T-CoinGeckoAPI.Models.Roi.htm">
       <HelpTOCNode Title="Roi Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.Roi.htm" />
-      <HelpTOCNode Id="22f4c825-e0a0-49d4-9e89-c716501a8ce3" Title="Roi Properties" Url="html/Properties.T-CoinGeckoAPI.Models.Roi.htm">
+      <HelpTOCNode Id="43b1307b-58c3-4892-be74-d86f8e70a609" Title="Roi Properties" Url="html/Properties.T-CoinGeckoAPI.Models.Roi.htm">
         <HelpTOCNode Title="Currency Property " Url="html/P-CoinGeckoAPI.Models.Roi.Currency.htm" />
         <HelpTOCNode Title="Percentage Property " Url="html/P-CoinGeckoAPI.Models.Roi.Percentage.htm" />
         <HelpTOCNode Title="Times Property " Url="html/P-CoinGeckoAPI.Models.Roi.Times.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="749cb0f7-83c8-4bde-8d4b-1a235ce95e4c" Title="SearchResponse Class" Url="html/T-CoinGeckoAPI.Models.SearchResponse.htm">
+    <HelpTOCNode Id="637e2e54-ac75-40b1-8fd0-c2d6fd5828a4" Title="SearchResponse Class" Url="html/T-CoinGeckoAPI.Models.SearchResponse.htm">
       <HelpTOCNode Title="SearchResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.SearchResponse.htm" />
-      <HelpTOCNode Id="c4b7458a-defc-4889-be34-5086083b9f1a" Title="SearchResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SearchResponse.htm">
+      <HelpTOCNode Id="38d0d137-4c73-4aa4-8eed-b15e62e755e1" Title="SearchResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SearchResponse.htm">
         <HelpTOCNode Title="Categories Property " Url="html/P-CoinGeckoAPI.Models.SearchResponse.Categories.htm" />
         <HelpTOCNode Title="Coins Property " Url="html/P-CoinGeckoAPI.Models.SearchResponse.Coins.htm" />
         <HelpTOCNode Title="Exchanges Property " Url="html/P-CoinGeckoAPI.Models.SearchResponse.Exchanges.htm" />
@@ -881,46 +950,46 @@
         <HelpTOCNode Title="Nfts Property " Url="html/P-CoinGeckoAPI.Models.SearchResponse.Nfts.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ae87597e-7f9b-4dc7-9aed-df41181cd042" Title="SearchTrendingResponse Class" Url="html/T-CoinGeckoAPI.Models.SearchTrendingResponse.htm">
+    <HelpTOCNode Id="d0b523f7-a21c-4716-82df-34fee74d3569" Title="SearchTrendingResponse Class" Url="html/T-CoinGeckoAPI.Models.SearchTrendingResponse.htm">
       <HelpTOCNode Title="SearchTrendingResponse Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.SearchTrendingResponse.htm" />
-      <HelpTOCNode Id="b841d80e-949b-4452-9899-f16ce96e17d9" Title="SearchTrendingResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SearchTrendingResponse.htm">
+      <HelpTOCNode Id="d08824cc-7ecb-452e-94c5-828ce56ffc26" Title="SearchTrendingResponse Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SearchTrendingResponse.htm">
         <HelpTOCNode Title="Coins Property " Url="html/P-CoinGeckoAPI.Models.SearchTrendingResponse.Coins.htm" />
         <HelpTOCNode Title="Exchanges Property " Url="html/P-CoinGeckoAPI.Models.SearchTrendingResponse.Exchanges.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c341c070-6761-4a52-887c-e5cfb267ae91" Title="SparklineData Class" Url="html/T-CoinGeckoAPI.Models.SparklineData.htm">
+    <HelpTOCNode Id="e0ac88a8-cfb9-4c13-8270-1a5c4e6d40a5" Title="SparklineData Class" Url="html/T-CoinGeckoAPI.Models.SparklineData.htm">
       <HelpTOCNode Title="SparklineData Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.SparklineData.htm" />
-      <HelpTOCNode Id="523884e5-4a36-4936-9c77-dac214ff9a6e" Title="SparklineData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SparklineData.htm">
+      <HelpTOCNode Id="96e92aac-2281-404c-a565-5f2ce4840311" Title="SparklineData Properties" Url="html/Properties.T-CoinGeckoAPI.Models.SparklineData.htm">
         <HelpTOCNode Title="Price Property " Url="html/P-CoinGeckoAPI.Models.SparklineData.Price.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a9f27676-c506-441c-a7f6-01bbc61c1a2e" Title="TickerMarketItem Class" Url="html/T-CoinGeckoAPI.Models.TickerMarketItem.htm">
+    <HelpTOCNode Id="dfb3ae07-85a6-4d50-9b38-9f603b2d4828" Title="TickerMarketItem Class" Url="html/T-CoinGeckoAPI.Models.TickerMarketItem.htm">
       <HelpTOCNode Title="TickerMarketItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.TickerMarketItem.htm" />
-      <HelpTOCNode Id="e36ce41b-1532-448a-98f2-f293cd44c301" Title="TickerMarketItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.TickerMarketItem.htm">
+      <HelpTOCNode Id="992a0101-92a8-42cc-8871-1fa10867ae3d" Title="TickerMarketItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.TickerMarketItem.htm">
         <HelpTOCNode Title="HasTradingIncentive Property " Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.HasTradingIncentive.htm" />
         <HelpTOCNode Title="Identifier Property " Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.Identifier.htm" />
         <HelpTOCNode Title="Logo Property " Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.Logo.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5f4df6b5-c448-4d3d-a91f-927dec965977" Title="TrendingCoinItem Class" Url="html/T-CoinGeckoAPI.Models.TrendingCoinItem.htm">
+    <HelpTOCNode Id="55aa30d9-0ab6-496f-8a84-1006fec44a25" Title="TrendingCoinItem Class" Url="html/T-CoinGeckoAPI.Models.TrendingCoinItem.htm">
       <HelpTOCNode Title="TrendingCoinItem Members" Url="html/AllMembers.T-CoinGeckoAPI.Models.TrendingCoinItem.htm" />
-      <HelpTOCNode Id="e2300537-a43e-459c-a4a7-9f723f552bde" Title="TrendingCoinItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.TrendingCoinItem.htm">
+      <HelpTOCNode Id="f9c385d8-6219-48ce-adc4-089a1d7bd64e" Title="TrendingCoinItem Properties" Url="html/Properties.T-CoinGeckoAPI.Models.TrendingCoinItem.htm">
         <HelpTOCNode Title="CoinItem Property " Url="html/P-CoinGeckoAPI.Models.TrendingCoinItem.CoinItem.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="3cbf88a5-a208-4e2d-8de1-7e3b5f6ba012" Title="CoinGeckoAPI.Properties Namespace" Url="html/N-CoinGeckoAPI.Properties.htm">
-    <HelpTOCNode Id="3c10c60a-e75a-48e3-98e2-43a507ce1460" Title="Resources Class" Url="html/T-CoinGeckoAPI.Properties.Resources.htm">
+  <HelpTOCNode Id="4f614efb-ed04-4b1f-94de-6eebd1d3419a" Title="CoinGeckoAPI.Properties Namespace" Url="html/N-CoinGeckoAPI.Properties.htm">
+    <HelpTOCNode Id="d15558cd-6539-40b5-848a-6782f66cccb7" Title="Resources Class" Url="html/T-CoinGeckoAPI.Properties.Resources.htm">
       <HelpTOCNode Title="Resources Members" Url="html/AllMembers.T-CoinGeckoAPI.Properties.Resources.htm" />
-      <HelpTOCNode Id="053feac7-8ded-49c1-b117-9c758cbd5b45" Title="Resources Properties" Url="html/Properties.T-CoinGeckoAPI.Properties.Resources.htm">
+      <HelpTOCNode Id="33be0d55-532a-495a-81f3-3f43a26c2d0f" Title="Resources Properties" Url="html/Properties.T-CoinGeckoAPI.Properties.Resources.htm">
         <HelpTOCNode Title="coingecko_logo Property " Url="html/P-CoinGeckoAPI.Properties.Resources.coingecko_logo.htm" />
         <HelpTOCNode Title="Culture Property " Url="html/P-CoinGeckoAPI.Properties.Resources.Culture.htm" />
         <HelpTOCNode Title="ResourceManager Property " Url="html/P-CoinGeckoAPI.Properties.Resources.ResourceManager.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="08ec34a3-7f7b-4a18-bb9e-6ee275094b90" Title="CoinGeckoAPI.Types Namespace" Url="html/N-CoinGeckoAPI.Types.htm">
+  <HelpTOCNode Id="5ee9a658-9d78-448c-987e-1f8acbf0010e" Title="CoinGeckoAPI.Types Namespace" Url="html/N-CoinGeckoAPI.Types.htm">
     <HelpTOCNode Title="CoinCategoriesOrderBy Enumeration" Url="html/T-CoinGeckoAPI.Types.CoinCategoriesOrderBy.htm" />
     <HelpTOCNode Title="CoinMarketChartInterval Enumeration" Url="html/T-CoinGeckoAPI.Types.CoinMarketChartInterval.htm" />
     <HelpTOCNode Title="CoinTickersOrderBy Enumeration" Url="html/T-CoinGeckoAPI.Types.CoinTickersOrderBy.htm" />
@@ -928,5 +997,6 @@
     <HelpTOCNode Title="MarketPriceChangePercentage Enumeration" Url="html/T-CoinGeckoAPI.Types.MarketPriceChangePercentage.htm" />
     <HelpTOCNode Title="MarketsOrderBy Enumeration" Url="html/T-CoinGeckoAPI.Types.MarketsOrderBy.htm" />
     <HelpTOCNode Title="NftsListOrderBy Enumeration" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+    <HelpTOCNode Title="NftsMarketsOrderBy Enumeration" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   </HelpTOCNode>
 </HelpTOC>

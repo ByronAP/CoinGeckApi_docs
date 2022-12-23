@@ -34,6 +34,7 @@
   <HelpKINode Title="AssetPlatformId property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.AssetPlatformId.htm" />
   <HelpKINode Title="AssetPlatformId property" Url="html/P-CoinGeckoAPI.Models.NftListItem.AssetPlatformId.htm" />
   <HelpKINode Title="AssetPlatformId property" Url="html/P-CoinGeckoAPI.Models.NftResponse.AssetPlatformId.htm" />
+  <HelpKINode Title="AssetPlatformId property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.AssetPlatformId.htm" />
   <HelpKINode Title="AssetType property" Url="html/P-CoinGeckoAPI.Models.ExchangeRate.AssetType.htm" />
   <HelpKINode Title="Ath property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.Ath.htm" />
   <HelpKINode Title="Ath property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.Ath.htm" />
@@ -63,7 +64,7 @@
   <HelpKINode Title="BlockTimeInMinutes property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.BlockTimeInMinutes.htm" />
   <HelpKINode Title="Blog property" Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Blog.htm" />
   <HelpKINode Title="BountyDetailUrl property" Url="html/P-CoinGeckoAPI.Models.CoinIcoData.BountyDetailUrl.htm" />
-  <HelpKINode Title="Categories property" Url="html/P-CoinGeckoAPI.CoinsImp.Categories.htm" />
+  <HelpKINode Title="Categories property" Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Categories.htm" />
   <HelpKINode Title="Categories property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.Categories.htm" />
   <HelpKINode Title="Categories property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.Categories.htm" />
   <HelpKINode Title="Categories property" Url="html/P-CoinGeckoAPI.Models.SearchResponse.Categories.htm" />
@@ -193,27 +194,36 @@
   <HelpKINode Title="CoinGeckoAPI namespace" Url="html/N-CoinGeckoAPI.htm" />
   <HelpKINode Title="CoinGeckoAPI.CoinGeckoClient class" Url="html/AllMembers.T-CoinGeckoAPI.CoinGeckoClient.htm" />
   <HelpKINode Title="CoinGeckoAPI.CoinGeckoClient class" Url="html/T-CoinGeckoAPI.CoinGeckoClient.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsCategoriesImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsContractImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsContractImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsContractImp class" Url="html/T-CoinGeckoAPI.CoinsContractImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CoinsImp class" Url="html/T-CoinGeckoAPI.CoinsImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CompaniesImp class" Url="html/AllMembers.T-CoinGeckoAPI.CompaniesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.CompaniesImp class" Url="html/T-CoinGeckoAPI.CompaniesImp.htm" />
   <HelpKINode Title="CoinGeckoAPI.Constants class" Url="html/AllMembers.T-CoinGeckoAPI.Constants.htm" />
   <HelpKINode Title="CoinGeckoAPI.Constants class" Url="html/T-CoinGeckoAPI.Constants.htm" />
-  <HelpKINode Title="CoinGeckoAPI.DerivativesImp class" Url="html/AllMembers.T-CoinGeckoAPI.DerivativesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.DerivativesImp class" Url="html/T-CoinGeckoAPI.DerivativesImp.htm" />
   <HelpKINode Title="CoinGeckoAPI.Exceptions namespace" Url="html/N-CoinGeckoAPI.Exceptions.htm" />
   <HelpKINode Title="CoinGeckoAPI.Exceptions.UnknownException class" Url="html/AllMembers.T-CoinGeckoAPI.Exceptions.UnknownException.htm" />
   <HelpKINode Title="CoinGeckoAPI.Exceptions.UnknownException class" Url="html/T-CoinGeckoAPI.Exceptions.UnknownException.htm" />
-  <HelpKINode Title="CoinGeckoAPI.ExchangesImp class" Url="html/AllMembers.T-CoinGeckoAPI.ExchangesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.ExchangesImp class" Url="html/T-CoinGeckoAPI.ExchangesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.GlobalImp class" Url="html/AllMembers.T-CoinGeckoAPI.GlobalImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.GlobalImp class" Url="html/T-CoinGeckoAPI.GlobalImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.IndexesImp class" Url="html/AllMembers.T-CoinGeckoAPI.IndexesImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.IndexesImp class" Url="html/T-CoinGeckoAPI.IndexesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps namespace" Url="html/N-CoinGeckoAPI.Imps.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsCategoriesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsContractImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsContractImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CoinsImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CompaniesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.CompaniesImp class" Url="html/T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.DerivativesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.DerivativesImp class" Url="html/T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.ExchangesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.ExchangesImp class" Url="html/T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.GlobalImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.GlobalImp class" Url="html/T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.IndexesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.IndexesImp class" Url="html/T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.NftsImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.NftsImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.NftsImp class" Url="html/T-CoinGeckoAPI.Imps.NftsImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.ProImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ProImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.ProImp class" Url="html/T-CoinGeckoAPI.Imps.ProImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.SearchImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SearchImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.SearchImp class" Url="html/T-CoinGeckoAPI.Imps.SearchImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.SimpleImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SimpleImp.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Imps.SimpleImp class" Url="html/T-CoinGeckoAPI.Imps.SimpleImp.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models namespace" Url="html/N-CoinGeckoAPI.Models.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.AssetPlatform class" Url="html/AllMembers.T-CoinGeckoAPI.Models.AssetPlatform.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.AssetPlatform class" Url="html/T-CoinGeckoAPI.Models.AssetPlatform.htm" />
@@ -293,6 +303,8 @@
   <HelpKINode Title="CoinGeckoAPI.Models.GlobalDefiData class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiData.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.GlobalDefiResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalDefiResponse.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.GlobalDefiResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalDefiResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.GlobalMarketCapChartResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.GlobalMarketCapChartResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.GlobalResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalResponse.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.GlobalResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalResponse.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.IdNameListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.IdNameListItem.htm" />
@@ -301,6 +313,8 @@
   <HelpKINode Title="CoinGeckoAPI.Models.IndexItem class" Url="html/T-CoinGeckoAPI.Models.IndexItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.IndexListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.IndexListItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.IndexListItem class" Url="html/T-CoinGeckoAPI.Models.IndexListItem.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.MarketCapChartData class" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.MarketCapChartData class" Url="html/T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.MarketChartCombinedItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.MarketChartCombinedItem class" Url="html/T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.NftListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftListItem.htm" />
@@ -311,6 +325,14 @@
   <HelpKINode Title="CoinGeckoAPI.Models.NftResponse class" Url="html/T-CoinGeckoAPI.Models.NftResponse.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.NftSearchItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftSearchItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.NftSearchItem class" Url="html/T-CoinGeckoAPI.Models.NftSearchItem.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsMarketChartResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsMarketChartResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsMarketsResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsMarketsResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsTickersResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftsTickersResponse class" Url="html/T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftTicker class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftTicker.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Models.NftTicker class" Url="html/T-CoinGeckoAPI.Models.NftTicker.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.OhlcItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.OhlcItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.OhlcItem class" Url="html/T-CoinGeckoAPI.Models.OhlcItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.Roi class" Url="html/AllMembers.T-CoinGeckoAPI.Models.Roi.htm" />
@@ -325,15 +347,9 @@
   <HelpKINode Title="CoinGeckoAPI.Models.TickerMarketItem class" Url="html/T-CoinGeckoAPI.Models.TickerMarketItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.TrendingCoinItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.TrendingCoinItem.htm" />
   <HelpKINode Title="CoinGeckoAPI.Models.TrendingCoinItem class" Url="html/T-CoinGeckoAPI.Models.TrendingCoinItem.htm" />
-  <HelpKINode Title="CoinGeckoAPI.NftsImp class" Url="html/AllMembers.T-CoinGeckoAPI.NftsImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.NftsImp class" Url="html/T-CoinGeckoAPI.NftsImp.htm" />
   <HelpKINode Title="CoinGeckoAPI.Properties namespace" Url="html/N-CoinGeckoAPI.Properties.htm" />
   <HelpKINode Title="CoinGeckoAPI.Properties.Resources class" Url="html/AllMembers.T-CoinGeckoAPI.Properties.Resources.htm" />
   <HelpKINode Title="CoinGeckoAPI.Properties.Resources class" Url="html/T-CoinGeckoAPI.Properties.Resources.htm" />
-  <HelpKINode Title="CoinGeckoAPI.SearchImp class" Url="html/AllMembers.T-CoinGeckoAPI.SearchImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.SearchImp class" Url="html/T-CoinGeckoAPI.SearchImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.SimpleImp class" Url="html/AllMembers.T-CoinGeckoAPI.SimpleImp.htm" />
-  <HelpKINode Title="CoinGeckoAPI.SimpleImp class" Url="html/T-CoinGeckoAPI.SimpleImp.htm" />
   <HelpKINode Title="CoinGeckoAPI.Types namespace" Url="html/N-CoinGeckoAPI.Types.htm" />
   <HelpKINode Title="CoinGeckoAPI.Types.CoinCategoriesOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.CoinCategoriesOrderBy.htm" />
   <HelpKINode Title="CoinGeckoAPI.Types.CoinMarketChartInterval enumeration" Url="html/T-CoinGeckoAPI.Types.CoinMarketChartInterval.htm" />
@@ -342,18 +358,19 @@
   <HelpKINode Title="CoinGeckoAPI.Types.MarketPriceChangePercentage enumeration" Url="html/T-CoinGeckoAPI.Types.MarketPriceChangePercentage.htm" />
   <HelpKINode Title="CoinGeckoAPI.Types.MarketsOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.MarketsOrderBy.htm" />
   <HelpKINode Title="CoinGeckoAPI.Types.NftsListOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+  <HelpKINode Title="CoinGeckoAPI.Types.NftsMarketsOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   <HelpKINode Title="CoinGeckoClient class" Url="html/AllMembers.T-CoinGeckoAPI.CoinGeckoClient.htm" />
   <HelpKINode Title="CoinGeckoClient class" Url="html/T-CoinGeckoAPI.CoinGeckoClient.htm" />
   <HelpKINode Title="CoinGeckoClient class">
     <HelpKINode Title="about CoinGeckoClient class" Url="html/T-CoinGeckoAPI.CoinGeckoClient.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.CoinGeckoClient.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.CoinGeckoClient.htm" />
     <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.CoinGeckoClient.htm" />
   </HelpKINode>
   <HelpKINode Title="CoinGeckoClient.CGRestClient property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.CGRestClient.htm" />
   <HelpKINode Title="CoinGeckoClient.ClearCache method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.ClearCache.htm" />
-  <HelpKINode Title="CoinGeckoClient.CoinGeckoClient constructor" Url="html/Overload-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
+  <HelpKINode Title="CoinGeckoClient.CoinGeckoClient constructor" Url="html/M-CoinGeckoAPI.CoinGeckoClient.-ctor.htm" />
   <HelpKINode Title="CoinGeckoClient.Coins property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Coins.htm" />
   <HelpKINode Title="CoinGeckoClient.Companies property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Companies.htm" />
   <HelpKINode Title="CoinGeckoClient.Derivatives property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Derivatives.htm" />
@@ -366,6 +383,7 @@
   <HelpKINode Title="CoinGeckoClient.IsRateLimitingEnabled property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.IsRateLimitingEnabled.htm" />
   <HelpKINode Title="CoinGeckoClient.Nfts property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Nfts.htm" />
   <HelpKINode Title="CoinGeckoClient.PingAsync method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.PingAsync.htm" />
+  <HelpKINode Title="CoinGeckoClient.Pro property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Pro.htm" />
   <HelpKINode Title="CoinGeckoClient.Search property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Search.htm" />
   <HelpKINode Title="CoinGeckoClient.Simple property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Simple.htm" />
   <HelpKINode Title="CoingeckoRank property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.CoingeckoRank.htm" />
@@ -608,25 +626,25 @@
   <HelpKINode Title="Coins property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Coins.htm" />
   <HelpKINode Title="Coins property" Url="html/P-CoinGeckoAPI.Models.SearchResponse.Coins.htm" />
   <HelpKINode Title="Coins property" Url="html/P-CoinGeckoAPI.Models.SearchTrendingResponse.Coins.htm" />
-  <HelpKINode Title="CoinsCategoriesImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-  <HelpKINode Title="CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
+  <HelpKINode Title="CoinsCategoriesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+  <HelpKINode Title="CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
   <HelpKINode Title="CoinsCategoriesImp class">
-    <HelpKINode Title="about CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.CoinsCategoriesImp.htm" />
+    <HelpKINode Title="about CoinsCategoriesImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsCategoriesImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="CoinsCategoriesImp.GetCoinCategoriesAsync method" Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
-  <HelpKINode Title="CoinsCategoriesImp.GetCoinCategoriesListAsync method" Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
-  <HelpKINode Title="CoinsContractImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsContractImp.htm" />
-  <HelpKINode Title="CoinsContractImp class" Url="html/T-CoinGeckoAPI.CoinsContractImp.htm" />
+  <HelpKINode Title="CoinsCategoriesImp.GetCoinCategoriesAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
+  <HelpKINode Title="CoinsCategoriesImp.GetCoinCategoriesListAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
+  <HelpKINode Title="CoinsContractImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+  <HelpKINode Title="CoinsContractImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
   <HelpKINode Title="CoinsContractImp class">
-    <HelpKINode Title="about CoinsContractImp class" Url="html/T-CoinGeckoAPI.CoinsContractImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsContractImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.CoinsContractImp.htm" />
+    <HelpKINode Title="about CoinsContractImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsContractImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="CoinsContractImp.GetCoinContractAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractAsync.htm" />
-  <HelpKINode Title="CoinsContractImp.GetCoinContractMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
-  <HelpKINode Title="CoinsContractImp.GetCoinContractMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
+  <HelpKINode Title="CoinsContractImp.GetCoinContractAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractAsync.htm" />
+  <HelpKINode Title="CoinsContractImp.GetCoinContractMarketChartAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
+  <HelpKINode Title="CoinsContractImp.GetCoinContractMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
   <HelpKINode Title="CoinSearchItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinSearchItem.htm" />
   <HelpKINode Title="CoinSearchItem class" Url="html/T-CoinGeckoAPI.Models.CoinSearchItem.htm" />
   <HelpKINode Title="CoinSearchItem class">
@@ -645,25 +663,25 @@
   <HelpKINode Title="CoinSearchItem.Small property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Small.htm" />
   <HelpKINode Title="CoinSearchItem.Symbol property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Symbol.htm" />
   <HelpKINode Title="CoinSearchItem.Thumb property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Thumb.htm" />
-  <HelpKINode Title="CoinsImp class" Url="html/AllMembers.T-CoinGeckoAPI.CoinsImp.htm" />
-  <HelpKINode Title="CoinsImp class" Url="html/T-CoinGeckoAPI.CoinsImp.htm" />
+  <HelpKINode Title="CoinsImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+  <HelpKINode Title="CoinsImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsImp.htm" />
   <HelpKINode Title="CoinsImp class">
-    <HelpKINode Title="about CoinsImp class" Url="html/T-CoinGeckoAPI.CoinsImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.CoinsImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.CoinsImp.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.CoinsImp.htm" />
+    <HelpKINode Title="about CoinsImp class" Url="html/T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Imps.CoinsImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="CoinsImp.Categories property" Url="html/P-CoinGeckoAPI.CoinsImp.Categories.htm" />
-  <HelpKINode Title="CoinsImp.Contract property" Url="html/P-CoinGeckoAPI.CoinsImp.Contract.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinHistoryAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcItemsAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm" />
-  <HelpKINode Title="CoinsImp.GetCoinTickersAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" />
+  <HelpKINode Title="CoinsImp.Categories property" Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Categories.htm" />
+  <HelpKINode Title="CoinsImp.Contract property" Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Contract.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinHistoryAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketsAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcItemsAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinsListAsync.htm" />
+  <HelpKINode Title="CoinsImp.GetCoinTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinTickersAsync.htm" />
   <HelpKINode Title="CoinsListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.CoinsListItem.htm" />
   <HelpKINode Title="CoinsListItem class" Url="html/T-CoinGeckoAPI.Models.CoinsListItem.htm" />
   <HelpKINode Title="CoinsListItem class">
@@ -764,14 +782,14 @@
   <HelpKINode Title="CommunityScore property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.CommunityScore.htm" />
   <HelpKINode Title="Companies property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Companies.htm" />
   <HelpKINode Title="Companies property" Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.Companies.htm" />
-  <HelpKINode Title="CompaniesImp class" Url="html/AllMembers.T-CoinGeckoAPI.CompaniesImp.htm" />
-  <HelpKINode Title="CompaniesImp class" Url="html/T-CoinGeckoAPI.CompaniesImp.htm" />
+  <HelpKINode Title="CompaniesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+  <HelpKINode Title="CompaniesImp class" Url="html/T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
   <HelpKINode Title="CompaniesImp class">
-    <HelpKINode Title="about CompaniesImp class" Url="html/T-CoinGeckoAPI.CompaniesImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.CompaniesImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.CompaniesImp.htm" />
+    <HelpKINode Title="about CompaniesImp class" Url="html/T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.CompaniesImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="CompaniesImp.GetCompaniesPublicTreasuryAsync method" Url="html/M-CoinGeckoAPI.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
+  <HelpKINode Title="CompaniesImp.GetCompaniesPublicTreasuryAsync method" Url="html/M-CoinGeckoAPI.Imps.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
   <HelpKINode Title="CompaniesPubTreasResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm" />
   <HelpKINode Title="CompaniesPubTreasResponse class" Url="html/T-CoinGeckoAPI.Models.CompaniesPubTreasResponse.htm" />
   <HelpKINode Title="CompaniesPubTreasResponse class">
@@ -813,11 +831,12 @@
   <HelpKINode Title="Constants.API_RATE_LIMIT_RESET_MS field" Url="html/F-CoinGeckoAPI.Constants.API_RATE_LIMIT_RESET_MS.htm" />
   <HelpKINode Title="Constants.API_VERSION field" Url="html/F-CoinGeckoAPI.Constants.API_VERSION.htm" />
   <HelpKINode Title="Content property" Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Content.htm" />
-  <HelpKINode Title="Contract property" Url="html/P-CoinGeckoAPI.CoinsImp.Contract.htm" />
+  <HelpKINode Title="Contract property" Url="html/P-CoinGeckoAPI.Imps.CoinsImp.Contract.htm" />
   <HelpKINode Title="ContractAddress property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.ContractAddress.htm" />
   <HelpKINode Title="ContractAddress property" Url="html/P-CoinGeckoAPI.Models.CoinPlatformDetail.ContractAddress.htm" />
   <HelpKINode Title="ContractAddress property" Url="html/P-CoinGeckoAPI.Models.NftListItem.ContractAddress.htm" />
   <HelpKINode Title="ContractAddress property" Url="html/P-CoinGeckoAPI.Models.NftResponse.ContractAddress.htm" />
+  <HelpKINode Title="ContractAddress property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.ContractAddress.htm" />
   <HelpKINode Title="ContractType property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.ContractType.htm" />
   <HelpKINode Title="ContractType property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.ContractType.htm" />
   <HelpKINode Title="ConvertedLast property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.ConvertedLast.htm" />
@@ -901,17 +920,17 @@
   <HelpKINode Title="DerivativesExchangeOrderBy.open_interest_btc_desc field" Url="html/F-CoinGeckoAPI.Types.DerivativesExchangeOrderBy.open_interest_btc_desc.htm" />
   <HelpKINode Title="DerivativesExchangeOrderBy.trade_volume_24h_btc_asc field" Url="html/F-CoinGeckoAPI.Types.DerivativesExchangeOrderBy.trade_volume_24h_btc_asc.htm" />
   <HelpKINode Title="DerivativesExchangeOrderBy.trade_volume_24h_btc_desc field" Url="html/F-CoinGeckoAPI.Types.DerivativesExchangeOrderBy.trade_volume_24h_btc_desc.htm" />
-  <HelpKINode Title="DerivativesImp class" Url="html/AllMembers.T-CoinGeckoAPI.DerivativesImp.htm" />
-  <HelpKINode Title="DerivativesImp class" Url="html/T-CoinGeckoAPI.DerivativesImp.htm" />
+  <HelpKINode Title="DerivativesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+  <HelpKINode Title="DerivativesImp class" Url="html/T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
   <HelpKINode Title="DerivativesImp class">
-    <HelpKINode Title="about DerivativesImp class" Url="html/T-CoinGeckoAPI.DerivativesImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.DerivativesImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.DerivativesImp.htm" />
+    <HelpKINode Title="about DerivativesImp class" Url="html/T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.DerivativesImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="DerivativesImp.GetDerivativesAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesAsync.htm" />
-  <HelpKINode Title="DerivativesImp.GetDerivativesExchangeAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangeAsync.htm" />
-  <HelpKINode Title="DerivativesImp.GetDerivativesExchangesAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesAsync.htm" />
-  <HelpKINode Title="DerivativesImp.GetDerivativesExchangesListAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
+  <HelpKINode Title="DerivativesImp.GetDerivativesAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesAsync.htm" />
+  <HelpKINode Title="DerivativesImp.GetDerivativesExchangeAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangeAsync.htm" />
+  <HelpKINode Title="DerivativesImp.GetDerivativesExchangesAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesAsync.htm" />
+  <HelpKINode Title="DerivativesImp.GetDerivativesExchangesListAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
   <HelpKINode Title="DerivativesTicker class" Url="html/AllMembers.T-CoinGeckoAPI.Models.DerivativesTicker.htm" />
   <HelpKINode Title="DerivativesTicker class" Url="html/T-CoinGeckoAPI.Models.DerivativesTicker.htm" />
   <HelpKINode Title="DerivativesTicker class">
@@ -965,6 +984,7 @@
   <HelpKINode Title="Description property" Url="html/P-CoinGeckoAPI.Models.ExchangeItem.Description.htm" />
   <HelpKINode Title="Description property" Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.Description.htm" />
   <HelpKINode Title="Description property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Description.htm" />
+  <HelpKINode Title="Description property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Description.htm" />
   <HelpKINode Title="DetailPlatforms property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.DetailPlatforms.htm" />
   <HelpKINode Title="DetailPlatforms property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.DetailPlatforms.htm" />
   <HelpKINode Title="DeveloperData property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.DeveloperData.htm" />
@@ -1058,19 +1078,19 @@
   <HelpKINode Title="ExchangeSearchItem.MarketType property" Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.MarketType.htm" />
   <HelpKINode Title="ExchangeSearchItem.Name property" Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.Name.htm" />
   <HelpKINode Title="ExchangeSearchItem.Thumb property" Url="html/P-CoinGeckoAPI.Models.ExchangeSearchItem.Thumb.htm" />
-  <HelpKINode Title="ExchangesImp class" Url="html/AllMembers.T-CoinGeckoAPI.ExchangesImp.htm" />
-  <HelpKINode Title="ExchangesImp class" Url="html/T-CoinGeckoAPI.ExchangesImp.htm" />
+  <HelpKINode Title="ExchangesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+  <HelpKINode Title="ExchangesImp class" Url="html/T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
   <HelpKINode Title="ExchangesImp class">
-    <HelpKINode Title="about ExchangesImp class" Url="html/T-CoinGeckoAPI.ExchangesImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.ExchangesImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.ExchangesImp.htm" />
+    <HelpKINode Title="about ExchangesImp class" Url="html/T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.ExchangesImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="ExchangesImp.GetExchangeAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeAsync.htm" />
-  <HelpKINode Title="ExchangesImp.GetExchangesAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesAsync.htm" />
-  <HelpKINode Title="ExchangesImp.GetExchangesListAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesListAsync.htm" />
-  <HelpKINode Title="ExchangesImp.GetExchangeTickersAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeTickersAsync.htm" />
-  <HelpKINode Title="ExchangesImp.GetExchangeVolumeChartAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
-  <HelpKINode Title="ExchangesImp.GetExchangeVolumeChartFriendlyAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangeAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangesAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangesListAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesListAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangeTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeTickersAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangeVolumeChartAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
+  <HelpKINode Title="ExchangesImp.GetExchangeVolumeChartFriendlyAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
   <HelpKINode Title="ExchangeTickersResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm" />
   <HelpKINode Title="ExchangeTickersResponse class" Url="html/T-CoinGeckoAPI.Models.ExchangeTickersResponse.htm" />
   <HelpKINode Title="ExchangeTickersResponse class">
@@ -1097,7 +1117,12 @@
   <HelpKINode Title="FacebookUsername property" Url="html/P-CoinGeckoAPI.Models.CoinLinks.FacebookUsername.htm" />
   <HelpKINode Title="FdvToTvlRatio property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.FdvToTvlRatio.htm" />
   <HelpKINode Title="FloorPrice property" Url="html/P-CoinGeckoAPI.Models.NftResponse.FloorPrice.htm" />
+  <HelpKINode Title="FloorPrice property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPrice.htm" />
+  <HelpKINode Title="FloorPriceInNativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.FloorPriceInNativeCurrency.htm" />
   <HelpKINode Title="FloorPriceInUsd24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftResponse.FloorPriceInUsd24HPercentageChange.htm" />
+  <HelpKINode Title="FloorPriceInUsd24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPriceInUsd24HPercentageChange.htm" />
+  <HelpKINode Title="FloorPriceNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceNative.htm" />
+  <HelpKINode Title="FloorPriceUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceUsd.htm" />
   <HelpKINode Title="floor_price_native_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
   <HelpKINode Title="floor_price_native_asc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.floor_price_native_asc.htm" />
   <HelpKINode Title="floor_price_native_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
@@ -1114,44 +1139,48 @@
   <HelpKINode Title="GenesisDate property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.GenesisDate.htm" />
   <HelpKINode Title="GenesisDate property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.GenesisDate.htm" />
   <HelpKINode Title="GetAssetPlatformsAsync method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.GetAssetPlatformsAsync.htm" />
-  <HelpKINode Title="GetCoinAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinAsync.htm" />
-  <HelpKINode Title="GetCoinCategoriesAsync method" Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
-  <HelpKINode Title="GetCoinCategoriesListAsync method" Url="html/M-CoinGeckoAPI.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
-  <HelpKINode Title="GetCoinContractAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractAsync.htm" />
-  <HelpKINode Title="GetCoinContractMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
-  <HelpKINode Title="GetCoinContractMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
-  <HelpKINode Title="GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinHistoryAsync.htm" />
-  <HelpKINode Title="GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartAsync.htm" />
-  <HelpKINode Title="GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
-  <HelpKINode Title="GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinMarketsAsync.htm" />
-  <HelpKINode Title="GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcAsync.htm" />
-  <HelpKINode Title="GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinOhlcItemsAsync.htm" />
-  <HelpKINode Title="GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinsListAsync.htm" />
-  <HelpKINode Title="GetCoinTickersAsync method" Url="html/M-CoinGeckoAPI.CoinsImp.GetCoinTickersAsync.htm" />
-  <HelpKINode Title="GetCompaniesPublicTreasuryAsync method" Url="html/M-CoinGeckoAPI.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
-  <HelpKINode Title="GetDerivativesAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesAsync.htm" />
-  <HelpKINode Title="GetDerivativesExchangeAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangeAsync.htm" />
-  <HelpKINode Title="GetDerivativesExchangesAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesAsync.htm" />
-  <HelpKINode Title="GetDerivativesExchangesListAsync method" Url="html/M-CoinGeckoAPI.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
-  <HelpKINode Title="GetExchangeAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeAsync.htm" />
+  <HelpKINode Title="GetCoinAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinAsync.htm" />
+  <HelpKINode Title="GetCoinCategoriesAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesAsync.htm" />
+  <HelpKINode Title="GetCoinCategoriesListAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsCategoriesImp.GetCoinCategoriesListAsync.htm" />
+  <HelpKINode Title="GetCoinContractAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractAsync.htm" />
+  <HelpKINode Title="GetCoinContractMarketChartAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartAsync.htm" />
+  <HelpKINode Title="GetCoinContractMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsContractImp.GetCoinContractMarketChartRangeAsync.htm" />
+  <HelpKINode Title="GetCoinHistoryAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinHistoryAsync.htm" />
+  <HelpKINode Title="GetCoinMarketChartAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartAsync.htm" />
+  <HelpKINode Title="GetCoinMarketChartRangeAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketChartRangeAsync.htm" />
+  <HelpKINode Title="GetCoinMarketsAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinMarketsAsync.htm" />
+  <HelpKINode Title="GetCoinOhlcAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcAsync.htm" />
+  <HelpKINode Title="GetCoinOhlcItemsAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinOhlcItemsAsync.htm" />
+  <HelpKINode Title="GetCoinsListAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinsListAsync.htm" />
+  <HelpKINode Title="GetCoinTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.CoinsImp.GetCoinTickersAsync.htm" />
+  <HelpKINode Title="GetCompaniesPublicTreasuryAsync method" Url="html/M-CoinGeckoAPI.Imps.CompaniesImp.GetCompaniesPublicTreasuryAsync.htm" />
+  <HelpKINode Title="GetDerivativesAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesAsync.htm" />
+  <HelpKINode Title="GetDerivativesExchangeAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangeAsync.htm" />
+  <HelpKINode Title="GetDerivativesExchangesAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesAsync.htm" />
+  <HelpKINode Title="GetDerivativesExchangesListAsync method" Url="html/M-CoinGeckoAPI.Imps.DerivativesImp.GetDerivativesExchangesListAsync.htm" />
+  <HelpKINode Title="GetExchangeAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeAsync.htm" />
   <HelpKINode Title="GetExchangeRatesAsync method" Url="html/M-CoinGeckoAPI.CoinGeckoClient.GetExchangeRatesAsync.htm" />
-  <HelpKINode Title="GetExchangesAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesAsync.htm" />
-  <HelpKINode Title="GetExchangesListAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangesListAsync.htm" />
-  <HelpKINode Title="GetExchangeTickersAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeTickersAsync.htm" />
-  <HelpKINode Title="GetExchangeVolumeChartAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
-  <HelpKINode Title="GetExchangeVolumeChartFriendlyAsync method" Url="html/M-CoinGeckoAPI.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
-  <HelpKINode Title="GetGlobalAsync method" Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalAsync.htm" />
-  <HelpKINode Title="GetGlobalDefiAsync method" Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalDefiAsync.htm" />
-  <HelpKINode Title="GetIndexAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexAsync.htm" />
-  <HelpKINode Title="GetIndexesAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesAsync.htm" />
-  <HelpKINode Title="GetIndexesListAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesListAsync.htm" />
-  <HelpKINode Title="GetNftAsync method" Url="html/Overload-CoinGeckoAPI.NftsImp.GetNftAsync.htm" />
-  <HelpKINode Title="GetNftsListAsync method" Url="html/M-CoinGeckoAPI.NftsImp.GetNftsListAsync.htm" />
-  <HelpKINode Title="GetPriceAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetPriceAsync.htm" />
-  <HelpKINode Title="GetSearchAsync method" Url="html/M-CoinGeckoAPI.SearchImp.GetSearchAsync.htm" />
-  <HelpKINode Title="GetSearchTrendingAsync method" Url="html/M-CoinGeckoAPI.SearchImp.GetSearchTrendingAsync.htm" />
-  <HelpKINode Title="GetSupportedVSCurrenciesAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
-  <HelpKINode Title="GetTokenPriceAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetTokenPriceAsync.htm" />
+  <HelpKINode Title="GetExchangesAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesAsync.htm" />
+  <HelpKINode Title="GetExchangesListAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangesListAsync.htm" />
+  <HelpKINode Title="GetExchangeTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeTickersAsync.htm" />
+  <HelpKINode Title="GetExchangeVolumeChartAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartAsync.htm" />
+  <HelpKINode Title="GetExchangeVolumeChartFriendlyAsync method" Url="html/M-CoinGeckoAPI.Imps.ExchangesImp.GetExchangeVolumeChartFriendlyAsync.htm" />
+  <HelpKINode Title="GetGlobalAsync method" Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalAsync.htm" />
+  <HelpKINode Title="GetGlobalDefiAsync method" Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalDefiAsync.htm" />
+  <HelpKINode Title="GetGlobalMarketCapChartAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetGlobalMarketCapChartAsync.htm" />
+  <HelpKINode Title="GetIndexAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexAsync.htm" />
+  <HelpKINode Title="GetIndexesAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesAsync.htm" />
+  <HelpKINode Title="GetIndexesListAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesListAsync.htm" />
+  <HelpKINode Title="GetNftAsync method" Url="html/Overload-CoinGeckoAPI.Imps.NftsImp.GetNftAsync.htm" />
+  <HelpKINode Title="GetNftsListAsync method" Url="html/M-CoinGeckoAPI.Imps.NftsImp.GetNftsListAsync.htm" />
+  <HelpKINode Title="GetNftsMarketChartAsync method" Url="html/Overload-CoinGeckoAPI.Imps.ProImp.GetNftsMarketChartAsync.htm" />
+  <HelpKINode Title="GetNftsMarketsAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsMarketsAsync.htm" />
+  <HelpKINode Title="GetNftsTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsTickersAsync.htm" />
+  <HelpKINode Title="GetPriceAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetPriceAsync.htm" />
+  <HelpKINode Title="GetSearchAsync method" Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchAsync.htm" />
+  <HelpKINode Title="GetSearchTrendingAsync method" Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchTrendingAsync.htm" />
+  <HelpKINode Title="GetSupportedVSCurrenciesAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
+  <HelpKINode Title="GetTokenPriceAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetTokenPriceAsync.htm" />
   <HelpKINode Title="Github property" Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Github.htm" />
   <HelpKINode Title="Global property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Global.htm" />
   <HelpKINode Title="GlobalData class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalData.htm" />
@@ -1193,15 +1222,23 @@
     <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalDefiResponse.htm" />
   </HelpKINode>
   <HelpKINode Title="GlobalDefiResponse.Data property" Url="html/P-CoinGeckoAPI.Models.GlobalDefiResponse.Data.htm" />
-  <HelpKINode Title="GlobalImp class" Url="html/AllMembers.T-CoinGeckoAPI.GlobalImp.htm" />
-  <HelpKINode Title="GlobalImp class" Url="html/T-CoinGeckoAPI.GlobalImp.htm" />
+  <HelpKINode Title="GlobalImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+  <HelpKINode Title="GlobalImp class" Url="html/T-CoinGeckoAPI.Imps.GlobalImp.htm" />
   <HelpKINode Title="GlobalImp class">
-    <HelpKINode Title="about GlobalImp class" Url="html/T-CoinGeckoAPI.GlobalImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.GlobalImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.GlobalImp.htm" />
+    <HelpKINode Title="about GlobalImp class" Url="html/T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.GlobalImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.GlobalImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="GlobalImp.GetGlobalAsync method" Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalAsync.htm" />
-  <HelpKINode Title="GlobalImp.GetGlobalDefiAsync method" Url="html/M-CoinGeckoAPI.GlobalImp.GetGlobalDefiAsync.htm" />
+  <HelpKINode Title="GlobalImp.GetGlobalAsync method" Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalAsync.htm" />
+  <HelpKINode Title="GlobalImp.GetGlobalDefiAsync method" Url="html/M-CoinGeckoAPI.Imps.GlobalImp.GetGlobalDefiAsync.htm" />
+  <HelpKINode Title="GlobalMarketCapChartResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+  <HelpKINode Title="GlobalMarketCapChartResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+  <HelpKINode Title="GlobalMarketCapChartResponse class">
+    <HelpKINode Title="about GlobalMarketCapChartResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GlobalMarketCapChartResponse.MarketCapChart property" Url="html/P-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.MarketCapChart.htm" />
   <HelpKINode Title="GlobalResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.GlobalResponse.htm" />
   <HelpKINode Title="GlobalResponse class" Url="html/T-CoinGeckoAPI.Models.GlobalResponse.htm" />
   <HelpKINode Title="GlobalResponse class">
@@ -1216,10 +1253,21 @@
   <HelpKINode Title="H24 field" Url="html/F-CoinGeckoAPI.Types.MarketPriceChangePercentage.H24.htm" />
   <HelpKINode Title="H24PercentageChange property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.H24PercentageChange.htm" />
   <HelpKINode Title="H24Volume property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.H24Volume.htm" />
+  <HelpKINode Title="H24VolumeInNativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.H24VolumeInNativeCurrency.htm" />
+  <HelpKINode Title="H24VolumeNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeNative.htm" />
+  <HelpKINode Title="H24VolumeUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeUsd.htm" />
   <HelpKINode Title="h24_volume_native_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+  <HelpKINode Title="h24_volume_native_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   <HelpKINode Title="h24_volume_native_asc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.h24_volume_native_asc.htm" />
+  <HelpKINode Title="h24_volume_native_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_native_asc.htm" />
   <HelpKINode Title="h24_volume_native_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+  <HelpKINode Title="h24_volume_native_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   <HelpKINode Title="h24_volume_native_desc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.h24_volume_native_desc.htm" />
+  <HelpKINode Title="h24_volume_native_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_native_desc.htm" />
+  <HelpKINode Title="h24_volume_usd_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
+  <HelpKINode Title="h24_volume_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_usd_asc.htm" />
+  <HelpKINode Title="h24_volume_usd_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
+  <HelpKINode Title="h24_volume_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_usd_desc.htm" />
   <HelpKINode Title="HardcapAmount property" Url="html/P-CoinGeckoAPI.Models.CoinIcoData.HardcapAmount.htm" />
   <HelpKINode Title="HardcapCurrency property" Url="html/P-CoinGeckoAPI.Models.CoinIcoData.HardcapCurrency.htm" />
   <HelpKINode Title="HashingAlgorithm property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.HashingAlgorithm.htm" />
@@ -1253,6 +1301,7 @@
   <HelpKINode Title="Id property" Url="html/P-CoinGeckoAPI.Models.NftListItem.Id.htm" />
   <HelpKINode Title="Id property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Id.htm" />
   <HelpKINode Title="Id property" Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Id.htm" />
+  <HelpKINode Title="Id property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Id.htm" />
   <HelpKINode Title="Identifier property" Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.Identifier.htm" />
   <HelpKINode Title="IdNameListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.IdNameListItem.htm" />
   <HelpKINode Title="IdNameListItem class" Url="html/T-CoinGeckoAPI.Models.IdNameListItem.htm" />
@@ -1276,20 +1325,21 @@
   <HelpKINode Title="Image property" Url="html/P-CoinGeckoAPI.Models.ExchangeItem.Image.htm" />
   <HelpKINode Title="Image property" Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.Image.htm" />
   <HelpKINode Title="Image property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Image.htm" />
+  <HelpKINode Title="Image property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Image.htm" />
   <HelpKINode Title="Index property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.Index.htm" />
   <HelpKINode Title="Index property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.Index.htm" />
   <HelpKINode Title="IndexBasisPercentage property" Url="html/P-CoinGeckoAPI.Models.DerivativesTicker.IndexBasisPercentage.htm" />
   <HelpKINode Title="Indexes property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Indexes.htm" />
-  <HelpKINode Title="IndexesImp class" Url="html/AllMembers.T-CoinGeckoAPI.IndexesImp.htm" />
-  <HelpKINode Title="IndexesImp class" Url="html/T-CoinGeckoAPI.IndexesImp.htm" />
+  <HelpKINode Title="IndexesImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+  <HelpKINode Title="IndexesImp class" Url="html/T-CoinGeckoAPI.Imps.IndexesImp.htm" />
   <HelpKINode Title="IndexesImp class">
-    <HelpKINode Title="about IndexesImp class" Url="html/T-CoinGeckoAPI.IndexesImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.IndexesImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.IndexesImp.htm" />
+    <HelpKINode Title="about IndexesImp class" Url="html/T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.IndexesImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.IndexesImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="IndexesImp.GetIndexAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexAsync.htm" />
-  <HelpKINode Title="IndexesImp.GetIndexesAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesAsync.htm" />
-  <HelpKINode Title="IndexesImp.GetIndexesListAsync method" Url="html/M-CoinGeckoAPI.IndexesImp.GetIndexesListAsync.htm" />
+  <HelpKINode Title="IndexesImp.GetIndexAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexAsync.htm" />
+  <HelpKINode Title="IndexesImp.GetIndexesAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesAsync.htm" />
+  <HelpKINode Title="IndexesImp.GetIndexesListAsync method" Url="html/M-CoinGeckoAPI.Imps.IndexesImp.GetIndexesListAsync.htm" />
   <HelpKINode Title="IndexId property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.IndexId.htm" />
   <HelpKINode Title="IndexItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.IndexItem.htm" />
   <HelpKINode Title="IndexItem class" Url="html/T-CoinGeckoAPI.Models.IndexItem.htm" />
@@ -1352,8 +1402,10 @@
   <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.MarketCap.htm" />
   <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.CoinMarketDataSlim.MarketCap.htm" />
   <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.MarketCap.htm" />
+  <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.MarketCap.htm" />
   <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.MarketChartCombinedItem.MarketCap.htm" />
   <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.NftResponse.MarketCap.htm" />
+  <HelpKINode Title="MarketCap property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.MarketCap.htm" />
   <HelpKINode Title="MarketCapChange24H property" Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.MarketCapChange24H.htm" />
   <HelpKINode Title="MarketCapChange24H property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.MarketCapChange24H.htm" />
   <HelpKINode Title="MarketCapChange24H property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.MarketCapChange24H.htm" />
@@ -1362,7 +1414,18 @@
   <HelpKINode Title="MarketCapChangePercentage24H property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.MarketCapChangePercentage24H.htm" />
   <HelpKINode Title="MarketCapChangePercentage24HInCurrency property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.MarketCapChangePercentage24HInCurrency.htm" />
   <HelpKINode Title="MarketCapChangePercentage24HUsd property" Url="html/P-CoinGeckoAPI.Models.GlobalData.MarketCapChangePercentage24HUsd.htm" />
+  <HelpKINode Title="MarketCapChart property" Url="html/P-CoinGeckoAPI.Models.GlobalMarketCapChartResponse.MarketCapChart.htm" />
+  <HelpKINode Title="MarketCapChartData class" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+  <HelpKINode Title="MarketCapChartData class" Url="html/T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+  <HelpKINode Title="MarketCapChartData class">
+    <HelpKINode Title="about MarketCapChartData class" Url="html/T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.MarketCapChartData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketCapChartData.MarketCap property" Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.MarketCap.htm" />
+  <HelpKINode Title="MarketCapChartData.Volume property" Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.Volume.htm" />
   <HelpKINode Title="MarketCapDominance property" Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.MarketCapDominance.htm" />
+  <HelpKINode Title="MarketCapNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapNative.htm" />
   <HelpKINode Title="MarketCapPercentage property" Url="html/P-CoinGeckoAPI.Models.GlobalData.MarketCapPercentage.htm" />
   <HelpKINode Title="MarketCapRank property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.MarketCapRank.htm" />
   <HelpKINode Title="MarketCapRank property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.MarketCapRank.htm" />
@@ -1370,6 +1433,7 @@
   <HelpKINode Title="MarketCapRank property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.MarketCapRank.htm" />
   <HelpKINode Title="MarketCapRank property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.MarketCapRank.htm" />
   <HelpKINode Title="MarketCaps property" Url="html/P-CoinGeckoAPI.Models.CoinMarketChartResponse.MarketCaps.htm" />
+  <HelpKINode Title="MarketCapUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapUsd.htm" />
   <HelpKINode Title="MarketChartCombinedItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm" />
   <HelpKINode Title="MarketChartCombinedItem class" Url="html/T-CoinGeckoAPI.Models.MarketChartCombinedItem.htm" />
   <HelpKINode Title="MarketChartCombinedItem class">
@@ -1422,9 +1486,13 @@
   <HelpKINode Title="market_cap_native_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
   <HelpKINode Title="market_cap_native_desc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.market_cap_native_desc.htm" />
   <HelpKINode Title="market_cap_usd_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+  <HelpKINode Title="market_cap_usd_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   <HelpKINode Title="market_cap_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.market_cap_usd_asc.htm" />
+  <HelpKINode Title="market_cap_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.market_cap_usd_asc.htm" />
   <HelpKINode Title="market_cap_usd_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
+  <HelpKINode Title="market_cap_usd_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
   <HelpKINode Title="market_cap_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.market_cap_usd_desc.htm" />
+  <HelpKINode Title="market_cap_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.market_cap_usd_desc.htm" />
   <HelpKINode Title="MaxSupply property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.MaxSupply.htm" />
   <HelpKINode Title="MaxSupply property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.MaxSupply.htm" />
   <HelpKINode Title="McapToTvlRatio property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.McapToTvlRatio.htm" />
@@ -1452,6 +1520,7 @@
   <HelpKINode Title="Name property" Url="html/P-CoinGeckoAPI.Models.NftListItem.Name.htm" />
   <HelpKINode Title="Name property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Name.htm" />
   <HelpKINode Title="Name property" Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Name.htm" />
+  <HelpKINode Title="Name property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Name.htm" />
   <HelpKINode Title="Name property" Url="html/P-CoinGeckoAPI.Models.TickerMarketItem.Name.htm" />
   <HelpKINode Title="name_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.CoinCategoriesOrderBy.htm" />
   <HelpKINode Title="name_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.DerivativesExchangeOrderBy.htm" />
@@ -1463,6 +1532,8 @@
   <HelpKINode Title="name_desc field" Url="html/F-CoinGeckoAPI.Types.DerivativesExchangeOrderBy.name_desc.htm" />
   <HelpKINode Title="NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftPriceItem.NativeCurrency.htm" />
   <HelpKINode Title="NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftResponse.NativeCurrency.htm" />
+  <HelpKINode Title="NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NativeCurrency.htm" />
+  <HelpKINode Title="NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.NativeCurrency.htm" />
   <HelpKINode Title="NftListItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftListItem.htm" />
   <HelpKINode Title="NftListItem class" Url="html/T-CoinGeckoAPI.Models.NftListItem.htm" />
   <HelpKINode Title="NftListItem class">
@@ -1475,6 +1546,7 @@
   <HelpKINode Title="NftListItem.Id property" Url="html/P-CoinGeckoAPI.Models.NftListItem.Id.htm" />
   <HelpKINode Title="NftListItem.Name property" Url="html/P-CoinGeckoAPI.Models.NftListItem.Name.htm" />
   <HelpKINode Title="NftListItem.Symbol property" Url="html/P-CoinGeckoAPI.Models.NftListItem.Symbol.htm" />
+  <HelpKINode Title="NftMarketplaceId property" Url="html/P-CoinGeckoAPI.Models.NftTicker.NftMarketplaceId.htm" />
   <HelpKINode Title="NftPriceItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftPriceItem.htm" />
   <HelpKINode Title="NftPriceItem class" Url="html/T-CoinGeckoAPI.Models.NftPriceItem.htm" />
   <HelpKINode Title="NftPriceItem class">
@@ -1518,15 +1590,15 @@
   <HelpKINode Title="NftSearchItem.Name property" Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Name.htm" />
   <HelpKINode Title="NftSearchItem.Symbol property" Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Symbol.htm" />
   <HelpKINode Title="NftSearchItem.Thumb property" Url="html/P-CoinGeckoAPI.Models.NftSearchItem.Thumb.htm" />
-  <HelpKINode Title="NftsImp class" Url="html/AllMembers.T-CoinGeckoAPI.NftsImp.htm" />
-  <HelpKINode Title="NftsImp class" Url="html/T-CoinGeckoAPI.NftsImp.htm" />
+  <HelpKINode Title="NftsImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.NftsImp.htm" />
+  <HelpKINode Title="NftsImp class" Url="html/T-CoinGeckoAPI.Imps.NftsImp.htm" />
   <HelpKINode Title="NftsImp class">
-    <HelpKINode Title="about NftsImp class" Url="html/T-CoinGeckoAPI.NftsImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.NftsImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.NftsImp.htm" />
+    <HelpKINode Title="about NftsImp class" Url="html/T-CoinGeckoAPI.Imps.NftsImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.NftsImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.NftsImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="NftsImp.GetNftAsync method" Url="html/Overload-CoinGeckoAPI.NftsImp.GetNftAsync.htm" />
-  <HelpKINode Title="NftsImp.GetNftsListAsync method" Url="html/M-CoinGeckoAPI.NftsImp.GetNftsListAsync.htm" />
+  <HelpKINode Title="NftsImp.GetNftAsync method" Url="html/Overload-CoinGeckoAPI.Imps.NftsImp.GetNftAsync.htm" />
+  <HelpKINode Title="NftsImp.GetNftsListAsync method" Url="html/M-CoinGeckoAPI.Imps.NftsImp.GetNftsListAsync.htm" />
   <HelpKINode Title="NftsListOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
   <HelpKINode Title="NftsListOrderBy.floor_price_native_asc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.floor_price_native_asc.htm" />
   <HelpKINode Title="NftsListOrderBy.floor_price_native_desc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.floor_price_native_desc.htm" />
@@ -1537,6 +1609,67 @@
   <HelpKINode Title="NftsListOrderBy.market_cap_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.market_cap_usd_asc.htm" />
   <HelpKINode Title="NftsListOrderBy.market_cap_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.market_cap_usd_desc.htm" />
   <HelpKINode Title="NftsListOrderBy.None field" Url="html/F-CoinGeckoAPI.Types.NftsListOrderBy.None.htm" />
+  <HelpKINode Title="NftsMarketChartResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+  <HelpKINode Title="NftsMarketChartResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+  <HelpKINode Title="NftsMarketChartResponse class">
+    <HelpKINode Title="about NftsMarketChartResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsMarketChartResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NftsMarketChartResponse.FloorPriceNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceNative.htm" />
+  <HelpKINode Title="NftsMarketChartResponse.FloorPriceUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.FloorPriceUsd.htm" />
+  <HelpKINode Title="NftsMarketChartResponse.H24VolumeNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeNative.htm" />
+  <HelpKINode Title="NftsMarketChartResponse.H24VolumeUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.H24VolumeUsd.htm" />
+  <HelpKINode Title="NftsMarketChartResponse.MarketCapNative property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapNative.htm" />
+  <HelpKINode Title="NftsMarketChartResponse.MarketCapUsd property" Url="html/P-CoinGeckoAPI.Models.NftsMarketChartResponse.MarketCapUsd.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy enumeration" Url="html/T-CoinGeckoAPI.Types.NftsMarketsOrderBy.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.h24_volume_native_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_native_asc.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.h24_volume_native_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_native_desc.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.h24_volume_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_usd_asc.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.h24_volume_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.h24_volume_usd_desc.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.market_cap_usd_asc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.market_cap_usd_asc.htm" />
+  <HelpKINode Title="NftsMarketsOrderBy.market_cap_usd_desc field" Url="html/F-CoinGeckoAPI.Types.NftsMarketsOrderBy.market_cap_usd_desc.htm" />
+  <HelpKINode Title="NftsMarketsResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+  <HelpKINode Title="NftsMarketsResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+  <HelpKINode Title="NftsMarketsResponse class">
+    <HelpKINode Title="about NftsMarketsResponse class" Url="html/T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsMarketsResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NftsMarketsResponse.AssetPlatformId property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.AssetPlatformId.htm" />
+  <HelpKINode Title="NftsMarketsResponse.ContractAddress property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.ContractAddress.htm" />
+  <HelpKINode Title="NftsMarketsResponse.Description property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Description.htm" />
+  <HelpKINode Title="NftsMarketsResponse.FloorPrice property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPrice.htm" />
+  <HelpKINode Title="NftsMarketsResponse.FloorPriceInUsd24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.FloorPriceInUsd24HPercentageChange.htm" />
+  <HelpKINode Title="NftsMarketsResponse.Id property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Id.htm" />
+  <HelpKINode Title="NftsMarketsResponse.Image property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Image.htm" />
+  <HelpKINode Title="NftsMarketsResponse.MarketCap property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.MarketCap.htm" />
+  <HelpKINode Title="NftsMarketsResponse.Name property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Name.htm" />
+  <HelpKINode Title="NftsMarketsResponse.NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NativeCurrency.htm" />
+  <HelpKINode Title="NftsMarketsResponse.NumberOfUniqueAddresses property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses.htm" />
+  <HelpKINode Title="NftsMarketsResponse.NumberOfUniqueAddresses24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses24HPercentageChange.htm" />
+  <HelpKINode Title="NftsMarketsResponse.TotalSupply property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.TotalSupply.htm" />
+  <HelpKINode Title="NftsMarketsResponse.Volume24H property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Volume24H.htm" />
+  <HelpKINode Title="NftsTickersResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+  <HelpKINode Title="NftsTickersResponse class" Url="html/T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+  <HelpKINode Title="NftsTickersResponse class">
+    <HelpKINode Title="about NftsTickersResponse class" Url="html/T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftsTickersResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NftsTickersResponse.Tickers property" Url="html/P-CoinGeckoAPI.Models.NftsTickersResponse.Tickers.htm" />
+  <HelpKINode Title="NftTicker class" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftTicker.htm" />
+  <HelpKINode Title="NftTicker class" Url="html/T-CoinGeckoAPI.Models.NftTicker.htm" />
+  <HelpKINode Title="NftTicker class">
+    <HelpKINode Title="about NftTicker class" Url="html/T-CoinGeckoAPI.Models.NftTicker.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Models.NftTicker.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-CoinGeckoAPI.Models.NftTicker.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NftTicker.FloorPriceInNativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.FloorPriceInNativeCurrency.htm" />
+  <HelpKINode Title="NftTicker.H24VolumeInNativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.H24VolumeInNativeCurrency.htm" />
+  <HelpKINode Title="NftTicker.NativeCurrency property" Url="html/P-CoinGeckoAPI.Models.NftTicker.NativeCurrency.htm" />
+  <HelpKINode Title="NftTicker.NftMarketplaceId property" Url="html/P-CoinGeckoAPI.Models.NftTicker.NftMarketplaceId.htm" />
+  <HelpKINode Title="NftTicker.UpdatedAt property" Url="html/P-CoinGeckoAPI.Models.NftTicker.UpdatedAt.htm" />
   <HelpKINode Title="None enumeration member" Url="html/T-CoinGeckoAPI.Types.MarketPriceChangePercentage.htm" />
   <HelpKINode Title="None enumeration member" Url="html/T-CoinGeckoAPI.Types.NftsListOrderBy.htm" />
   <HelpKINode Title="None field" Url="html/F-CoinGeckoAPI.Types.MarketPriceChangePercentage.None.htm" />
@@ -1546,7 +1679,9 @@
   <HelpKINode Title="NumberOfPerpetualPairs property" Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.NumberOfPerpetualPairs.htm" />
   <HelpKINode Title="NumberOfPerpetualPairs property" Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.NumberOfPerpetualPairs.htm" />
   <HelpKINode Title="NumberOfUniqueAddresses property" Url="html/P-CoinGeckoAPI.Models.NftResponse.NumberOfUniqueAddresses.htm" />
+  <HelpKINode Title="NumberOfUniqueAddresses property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses.htm" />
   <HelpKINode Title="NumberOfUniqueAddresses24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftResponse.NumberOfUniqueAddresses24HPercentageChange.htm" />
+  <HelpKINode Title="NumberOfUniqueAddresses24HPercentageChange property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.NumberOfUniqueAddresses24HPercentageChange.htm" />
   <HelpKINode Title="OfficialForumUrl property" Url="html/P-CoinGeckoAPI.Models.CoinLinks.OfficialForumUrl.htm" />
   <HelpKINode Title="OhlcItem class" Url="html/AllMembers.T-CoinGeckoAPI.Models.OhlcItem.htm" />
   <HelpKINode Title="OhlcItem class" Url="html/T-CoinGeckoAPI.Models.OhlcItem.htm" />
@@ -1614,6 +1749,18 @@
   <HelpKINode Title="PriceChangePercentage7DInCurrency property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.PriceChangePercentage7DInCurrency.htm" />
   <HelpKINode Title="PricePercentageChange24H property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.PricePercentageChange24H.htm" />
   <HelpKINode Title="Prices property" Url="html/P-CoinGeckoAPI.Models.CoinMarketChartResponse.Prices.htm" />
+  <HelpKINode Title="Pro property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Pro.htm" />
+  <HelpKINode Title="ProImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ProImp.htm" />
+  <HelpKINode Title="ProImp class" Url="html/T-CoinGeckoAPI.Imps.ProImp.htm" />
+  <HelpKINode Title="ProImp class">
+    <HelpKINode Title="about ProImp class" Url="html/T-CoinGeckoAPI.Imps.ProImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.ProImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.ProImp.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProImp.GetGlobalMarketCapChartAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetGlobalMarketCapChartAsync.htm" />
+  <HelpKINode Title="ProImp.GetNftsMarketChartAsync method" Url="html/Overload-CoinGeckoAPI.Imps.ProImp.GetNftsMarketChartAsync.htm" />
+  <HelpKINode Title="ProImp.GetNftsMarketsAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsMarketsAsync.htm" />
+  <HelpKINode Title="ProImp.GetNftsTickersAsync method" Url="html/M-CoinGeckoAPI.Imps.ProImp.GetNftsTickersAsync.htm" />
   <HelpKINode Title="PublicInterestScore property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.PublicInterestScore.htm" />
   <HelpKINode Title="PublicInterestScore property" Url="html/P-CoinGeckoAPI.Models.CoinResponse.PublicInterestScore.htm" />
   <HelpKINode Title="PublicInterestStats property" Url="html/P-CoinGeckoAPI.Models.CoinContractResponse.PublicInterestStats.htm" />
@@ -1660,15 +1807,15 @@
   <HelpKINode Title="Roi.Times property" Url="html/P-CoinGeckoAPI.Models.Roi.Times.htm" />
   <HelpKINode Title="Score property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Score.htm" />
   <HelpKINode Title="Search property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Search.htm" />
-  <HelpKINode Title="SearchImp class" Url="html/AllMembers.T-CoinGeckoAPI.SearchImp.htm" />
-  <HelpKINode Title="SearchImp class" Url="html/T-CoinGeckoAPI.SearchImp.htm" />
+  <HelpKINode Title="SearchImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SearchImp.htm" />
+  <HelpKINode Title="SearchImp class" Url="html/T-CoinGeckoAPI.Imps.SearchImp.htm" />
   <HelpKINode Title="SearchImp class">
-    <HelpKINode Title="about SearchImp class" Url="html/T-CoinGeckoAPI.SearchImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.SearchImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.SearchImp.htm" />
+    <HelpKINode Title="about SearchImp class" Url="html/T-CoinGeckoAPI.Imps.SearchImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SearchImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.SearchImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="SearchImp.GetSearchAsync method" Url="html/M-CoinGeckoAPI.SearchImp.GetSearchAsync.htm" />
-  <HelpKINode Title="SearchImp.GetSearchTrendingAsync method" Url="html/M-CoinGeckoAPI.SearchImp.GetSearchTrendingAsync.htm" />
+  <HelpKINode Title="SearchImp.GetSearchAsync method" Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchAsync.htm" />
+  <HelpKINode Title="SearchImp.GetSearchTrendingAsync method" Url="html/M-CoinGeckoAPI.Imps.SearchImp.GetSearchTrendingAsync.htm" />
   <HelpKINode Title="SearchResponse class" Url="html/AllMembers.T-CoinGeckoAPI.Models.SearchResponse.htm" />
   <HelpKINode Title="SearchResponse class" Url="html/T-CoinGeckoAPI.Models.SearchResponse.htm" />
   <HelpKINode Title="SearchResponse class">
@@ -1697,16 +1844,16 @@
   <HelpKINode Title="ShortDesc property" Url="html/P-CoinGeckoAPI.Models.CoinIcoData.ShortDesc.htm" />
   <HelpKINode Title="Shortname property" Url="html/P-CoinGeckoAPI.Models.AssetPlatform.Shortname.htm" />
   <HelpKINode Title="Simple property" Url="html/P-CoinGeckoAPI.CoinGeckoClient.Simple.htm" />
-  <HelpKINode Title="SimpleImp class" Url="html/AllMembers.T-CoinGeckoAPI.SimpleImp.htm" />
-  <HelpKINode Title="SimpleImp class" Url="html/T-CoinGeckoAPI.SimpleImp.htm" />
+  <HelpKINode Title="SimpleImp class" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SimpleImp.htm" />
+  <HelpKINode Title="SimpleImp class" Url="html/T-CoinGeckoAPI.Imps.SimpleImp.htm" />
   <HelpKINode Title="SimpleImp class">
-    <HelpKINode Title="about SimpleImp class" Url="html/T-CoinGeckoAPI.SimpleImp.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.SimpleImp.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.SimpleImp.htm" />
+    <HelpKINode Title="about SimpleImp class" Url="html/T-CoinGeckoAPI.Imps.SimpleImp.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-CoinGeckoAPI.Imps.SimpleImp.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-CoinGeckoAPI.Imps.SimpleImp.htm" />
   </HelpKINode>
-  <HelpKINode Title="SimpleImp.GetPriceAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetPriceAsync.htm" />
-  <HelpKINode Title="SimpleImp.GetSupportedVSCurrenciesAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
-  <HelpKINode Title="SimpleImp.GetTokenPriceAsync method" Url="html/M-CoinGeckoAPI.SimpleImp.GetTokenPriceAsync.htm" />
+  <HelpKINode Title="SimpleImp.GetPriceAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetPriceAsync.htm" />
+  <HelpKINode Title="SimpleImp.GetSupportedVSCurrenciesAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetSupportedVSCurrenciesAsync.htm" />
+  <HelpKINode Title="SimpleImp.GetTokenPriceAsync method" Url="html/M-CoinGeckoAPI.Imps.SimpleImp.GetTokenPriceAsync.htm" />
   <HelpKINode Title="Slack property" Url="html/P-CoinGeckoAPI.Models.CoinIcoLinks.Slack.htm" />
   <HelpKINode Title="SlackUrl property" Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.SlackUrl.htm" />
   <HelpKINode Title="Slug property" Url="html/P-CoinGeckoAPI.Models.CoinSearchItem.Slug.htm" />
@@ -1770,6 +1917,7 @@
   <HelpKINode Title="Tickers property" Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.Tickers.htm" />
   <HelpKINode Title="Tickers property" Url="html/P-CoinGeckoAPI.Models.ExchangeResponse.Tickers.htm" />
   <HelpKINode Title="Tickers property" Url="html/P-CoinGeckoAPI.Models.ExchangeTickersResponse.Tickers.htm" />
+  <HelpKINode Title="Tickers property" Url="html/P-CoinGeckoAPI.Models.NftsTickersResponse.Tickers.htm" />
   <HelpKINode Title="Times property" Url="html/P-CoinGeckoAPI.Models.Roi.Times.htm" />
   <HelpKINode Title="Timestamp property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.Timestamp.htm" />
   <HelpKINode Title="Timestamp property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Timestamp.htm" />
@@ -1791,6 +1939,7 @@
   <HelpKINode Title="TotalSupply property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.TotalSupply.htm" />
   <HelpKINode Title="TotalSupply property" Url="html/P-CoinGeckoAPI.Models.CoinsMarketItem.TotalSupply.htm" />
   <HelpKINode Title="TotalSupply property" Url="html/P-CoinGeckoAPI.Models.NftResponse.TotalSupply.htm" />
+  <HelpKINode Title="TotalSupply property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.TotalSupply.htm" />
   <HelpKINode Title="TotalValueLocked property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.TotalValueLocked.htm" />
   <HelpKINode Title="TotalValueUsd property" Url="html/P-CoinGeckoAPI.Models.CompaniesPubTreasResponse.TotalValueUsd.htm" />
   <HelpKINode Title="TotalVolume property" Url="html/P-CoinGeckoAPI.Models.CoinMarketData.TotalVolume.htm" />
@@ -1845,6 +1994,7 @@
   <HelpKINode Title="UpcomingIcos property" Url="html/P-CoinGeckoAPI.Models.GlobalData.UpcomingIcos.htm" />
   <HelpKINode Title="UpdatedAt property" Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.UpdatedAt.htm" />
   <HelpKINode Title="UpdatedAt property" Url="html/P-CoinGeckoAPI.Models.GlobalData.UpdatedAt.htm" />
+  <HelpKINode Title="UpdatedAt property" Url="html/P-CoinGeckoAPI.Models.NftTicker.UpdatedAt.htm" />
   <HelpKINode Title="Url property" Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeDetailItem.Url.htm" />
   <HelpKINode Title="Url property" Url="html/P-CoinGeckoAPI.Models.DerivativesExchangeItem.Url.htm" />
   <HelpKINode Title="Url property" Url="html/P-CoinGeckoAPI.Models.ExchangeItem.Url.htm" />
@@ -1853,9 +2003,11 @@
   <HelpKINode Title="Value property" Url="html/P-CoinGeckoAPI.Models.ExchangeRate.Value.htm" />
   <HelpKINode Title="Volume property" Url="html/P-CoinGeckoAPI.Models.CoinTicker.Volume.htm" />
   <HelpKINode Title="Volume property" Url="html/P-CoinGeckoAPI.Models.ExchangeVolumeChartItem.Volume.htm" />
+  <HelpKINode Title="Volume property" Url="html/P-CoinGeckoAPI.Models.MarketCapChartData.Volume.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.CoinCategoriesItem.Volume24H.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.DerivativesTickerItem.Volume24H.htm" />
   <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.NftResponse.Volume24H.htm" />
+  <HelpKINode Title="Volume24H property" Url="html/P-CoinGeckoAPI.Models.NftsMarketsResponse.Volume24H.htm" />
   <HelpKINode Title="volume_asc enumeration member" Url="html/T-CoinGeckoAPI.Types.MarketsOrderBy.htm" />
   <HelpKINode Title="volume_asc field" Url="html/F-CoinGeckoAPI.Types.MarketsOrderBy.volume_asc.htm" />
   <HelpKINode Title="volume_desc enumeration member" Url="html/T-CoinGeckoAPI.Types.CoinTickersOrderBy.htm" />
